@@ -1,0 +1,177 @@
+[
+  {
+    "id": "B001",
+    "section": "genetics",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Au milieu du XXème siècle, certains hôpitaux aux États-Unis ont commencé à utiliser de la méthicilline (antibiotique) pour prévenir les infections bactériennes causées par le staphylocoque S. aureus. Quelques années plus tard, des souches résistantes à la méthicilline sont apparues. Quel énoncé décrit le mieux leur apparition ?",
+    "options": [
+      "La méthicilline a créé une pression de sélection et les souches naturellement résistantes ont été sélectionnées au cours de l'évolution.",
+      "La méthicilline a induit des mutations dans des souches non résistantes, qui sont ainsi devenues résistantes.",
+      "La méthicilline a sélectionné les virus les plus aptes à se répliquer, c'est-à-dire les virus résistants à cet antibiotique.",
+      "L'apparition de souches résistantes et l'utilisation de la méthicilline ne sont pas corrélées.",
+      "Des souches résistantes ont été relâchées par erreur par la CIA lors d'un accident biologique."
+    ],
+    "correct": [0],
+    "hint": "Est-ce que les antibiotiques causent réellement des mutations ?",
+    "explanation": "La méthicilline n'a pas induit de mutations : elle a agi comme une pression de sélection qui a contribué à sélectionner les individus les mieux adaptés, dans ce cas-ci les souches résistantes."
+  },
+  {
+    "id": "B002",
+    "section": "genetics",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles conditions sont nécessaires pour la sélection naturelle ?",
+    "options": [
+      "Variation",
+      "Hérédité",
+      "Reproduction différentielle",
+      "Compétition",
+      "Lutte pour l'existence et la reproduction"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": [
+      "Les individus d'une population doivent présenter des différences dans leurs traits.",
+      "Les traits sur lesquels agit la sélection naturelle doivent être héréditaires, c'est-à-dire qu'ils se transmettent des parents à leur progéniture.",
+      "Les organismes possédant certains traits ont une plus grande chance de survie et de reproduction, ce qui conduit à une descendance plus nombreuse avec ces traits.",
+      "Il doit y avoir une lutte pour l'existence due à des ressources limitées ou à des pressions environnementales.",
+      "La lutte pour l'existence fait référence à la compétition et la lutte pour la reproduction fait référence à la reproduction différentielle."
+    ]
+  },
+  {
+    "id": "B003",
+    "section": "genetics",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La sélection naturelle agit ___ sur le phénotype et ___ sur le génotype.",
+    "options": [
+      "Directement / indirectement",
+      "Indirectement / directement",
+      "Uniquement / pas",
+      "Parfois / majoritairement"
+    ],
+    "correct": [0],
+    "hint": "La sélection naturelle agit-elle sur des caractères ou des gènes ?",
+    "explanation": "La sélection naturelle agit sur des caractères, donc sur le phénotype. Comme le génotype détermine le phénotype, la sélection naturelle agit indirectement sur le génotype."
+  },
+  {
+    "id": "B004",
+    "section": "genetics",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Dans quels cas la sélection naturelle n'entre-t-elle pas en jeu ?",
+    "options": [
+      "Si le phénotype n'est pas issu d'un génotype.",
+      "Si le phénotype n'est pas un caractère héréditaire.",
+      "Si le phénotype n'a pas d'influence sur la survie ou la reproduction de l'organisme.",
+      "Si le phénotype est un caractère héréditaire.",
+      "Si le phénotype dominant possède une valeur adaptative faible."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "La sélection naturelle agit sur des caractères, donc sur le phénotype, mais uniquement s'ils sont déterminés génétiquement."
+  },
+  {
+    "id": "B005",
+    "section": "genetics",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant l'évolution est fausse ?",
+    "options": [
+      "La distribution du poids des nouveaux-nés humains est un exemple de sélection naturelle directionnelle.",
+      "La sélection naturelle peut être observée chez certaines espèces à des échelles de temps courtes.",
+      "Les caractéristiques sur lesquelles agit la sélection naturelle sont toujours héréditaires.",
+      "Le dimorphisme sexuel joue généralement un rôle important dans la sélection sexuelle.",
+      "La sélection naturelle agit directement sur le phénotype et indirectement sur le génotype."
+    ],
+    "correct": [0],
+    "hint": "Les trois principaux types de sélection naturelle sont la sélection directionnelle (favorise un extrême), la sélection stabilisatrice (favorise les phénotypes intermédiaires) et la sélection naturelle divergente (favorise les phénotypes extrêmes).",
+    "explanation": [
+      "Il s'agit d'un exemple de sélection naturelle stabilisatrice : les phénotypes extrêmes (nouveaux-nés très légers ou très lourds) ont tendance à être éliminés au profit des phénotypes intermédiaires (poids moyen).",
+      "C'est vrai, surtout chez les espèces avec des temps de reproduction courts, p. ex. certains insectes ou bactéries.",
+      "Pour que la sélection naturelle agisse, il faut que les caractéristiques soient héréditaires et puissent être transmises à la descendance.",
+      "Le dimorphisme sexuel correspond à l'ensemble des différences entre mâles et femelles d'une même espèce. Ces différences jouent un rôle important dans la sélection sexuelle, c'est-à-dire le choix effectué par les organismes de leurs partenaires pour la reproduction.",
+      "La sélection naturelle agit sur les caractéristiques des organismes, c'est-à-dire sur leur phénotype. Comme le phénotype est déterminé par le génotype, la sélection naturelle agit indirectement sur le génotype."
+    ]
+  },
+  {
+    "id": "B006",
+    "section": "genetics",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles affirmations concernant les expériences réalisées par G. Mendel sont correctes ?",
+    "options": [
+      "En étudiant les résultats de divers croisements, G. Mendel a déduit des lois fondamentales de la génétique.",
+      "Dans une expérience typique de croisement de deux lignées pures différentes et d'autopollinisation des hybrides de la génération F1, un rapport de 3:1 est généralement observé en génération F2.",
+      "La génération F1 désigne la génération parentale.",
+      "G. Mendel a réalisé ses expériences sur des petits pois, malgré l'impossibilité de réaliser des croisements contrôlés.",
+      "Dans une expérience typique de croisement de deux lignées pures différentes et d'autopollinisation des hybrides de la génération F1, un rapport de 1:1 est généralement observé en génération F2."
+    ],
+    "correct": [0, 1],
+    "explanation": "Gregor Mendel a réalisé des croisement contrôlés sur des plants de petits pois et en a déduit des lois fondamentales de la génétique, notamment le rapport de 3:1 observé lors d'un croisement monohybride."
+  },
+  {
+    "id": "B007",
+    "section": "genetics",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant l'interprétation des expériences de Mendel est fausse ?",
+    "options": [
+      "Les différents allèles d'un même gène sont situés à des loci différents.",
+      "Si les deux allèles d'un organisme diploïde sont identiques, on dit que l'organisme est \"homozygote\".",
+      "Dans un organisme hétérozygote, p. ex. le descendant d'un croisement de deux lignées pures différentes, le phénotype dominant est observé.",
+      "Si les deux allèles d'un organisme diploïde sont différents, on dit que l'organisme est \"hétérozygote\".",
+      "Parmi les deux allèles d'un organisme diploïde, l'un provient de la mère et l'autre du père de l'organisme."
+    ],
+    "correct": [0],
+    "explanation": "Le locus d'un gène désigne son \"adresse\". Les deux allèles d'un même gène sont donc situés au même locus, simplement sur des chromosomes différents."
+  },
+  {
+    "id": "B008",
+    "section": "genetics",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles affirmations concernant les lois de Mendel sont correctes ?",
+    "options": [
+      "La loi de l'assortiment indépendant affirme que des gènes situés sur des chromosomes différents se séparent indépendamment lors de la méiose.",
+      "La loi de la ségrégation affirme que les deux allèles de chaque gène se séparent lors de la méiose.",
+      "La loi de la ségrégation affirme que des gènes situés sur des chromosomes différents se séparent indépendamment lors de la formation des gamètes (méiose).",
+      "La loi de l'assortiment indépendant affirme que les deux allèles de chaque gène se séparent lors de la méiose.",
+      "Les lois de Mendel affirment que des gamètes possédant des allèles identiques ont plus tendance à s'assembler que des gamètes possédant des allèles différents."
+    ],
+    "correct": [0, 1],
+    "explanation": "La loi de l'assortiment indépendant affirme que des gènes situés sur des chromosomes différents se séparent indépendamment lors de la méiose. La loi de la ségrégation affirme que les deux allèles de chaque gène se séparent lors de la méiose."
+  },
+  {
+    "id": "B009",
+    "section": "genetics",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quelle affirmation concernant les déviations des lois de Mendel est fausse ?",
+    "options": [
+      "L'épistasie est une relation de dépendance allélique, dans laquelle le premier allèle d'un gène détermine l'expression du second allèle du même gène.",
+      "Le système de groupes sanguins ABO est caractérisé par la présence de plus de deux allèles.",
+      "Une situation dans laquelle un gène influence plusieurs phénotypes est dénommée \"pléiotropie\".",
+      "Si le croisement d'une fleur de lignée pure à pétales blancs et d'une fleur de lignée pure à pétales rouges aboutit à une fleur à pétales roses, il s'agit probablement d'un cas de dominance incomplète.",
+      "Si le croisement d'une fleur de lignée pure à pétales blancs et d'une fleur de lignée pure à pétales rouges aboutit à une fleur à pétales blancs et pétales rouges, il s'agit probablement d'un cas de codominance."
+    ],
+    "correct": [0],
+    "explanation": "L'épistasie est une relation de dépendance entre gènes (pas entre allèles), dans laquelle un gène détermine l'expression d'un autre gène."
+  },
+  {
+    "id": "B010",
+    "section": "genetics",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles affirmations concernant les liens entre génotype et phénotype sont correctes ?",
+    "options": [
+      "La pénétrance désigne la proportion d'individus possédant un génotype et exprimant le phénotype correspondant.",
+      "Le phénotype d'un individu dépend à la fois de son génotype et de son histoire environnementale.",
+      "Le phénotype d'un individu dépend uniquement de son génotype.",
+      "Le phénotype d'un individu dépend uniquement de son histoire environnementale.",
+      "Si la pénétrance d'une maladie génétique est de 50 %, cela signifie que 50 % de la population sont atteints de cette maladie."
+    ],
+    "correct": [0, 1],
+    "hint": "Certaines mutations dans les gènes BRCA1/2 augmentent le risque de cancer du sein. Mais certaines personnes ayant ces mutations ne développent jamais de cancer !",
+    "explanation": "Le phénotype dépend à la fois du génotype et de l'histoire environnementale. Par conséquent, pas tous les individus ayant le même génotype expriment le même phénotype ; on parle de \"pénétrance\" pour désigner la proportion d'individus exprimant un phénotype correspondant à un génotype."
+  }
+]

@@ -1,0 +1,930 @@
+[
+  {
+    "id": "D001",
+    "section": "cellcycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels principes font partie de la théorie cellulaire actuelle (sans considérer les exceptions) ?",
+    "options": [
+      "L'ADN constitue l'information héréditaire nécessaire au fonctionnement d'une cellule.",
+      "La transformation d'énergie ou métabolisme se déroule à l'intérieur des cellules.",
+      "Toutes les cellules ont la même composition chimique de base.",
+      "Tous les êtres vivants sont composés de plusieurs cellules.",
+      "La cellule est l'unité structurelle du vivant et le tissu est l'unité fonctionnelle du vivant."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "L'ADN est la molécule d'information héréditaire universelle dans toutes les cellules connues.",
+      "Le métabolisme cellulaire est un pilier de la théorie cellulaire.",
+      "Toutes les cellules partagent les mêmes classes de biomolécules (ADN, protéines, lipides, glucides).",
+      "Les êtres unicellulaires sont composés d'une seule cellule.",
+      "La cellule est à la fois l'unité structurelle ET fonctionnelle du vivant."
+    ]
+  },
+  {
+    "id": "D002",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant le cycle cellulaire, laquelle est fausse ?",
+    "options": [
+      "Dans le cycle cellulaire eucaryote, seul l'ADN est dupliqué et réparti entre les deux cellules filles, tandis que les organites sont entièrement re-synthétisés par chaque cellule fille grâce à l'information contenue dans l'ADN.",
+      "Le cycle cellulaire procaryote produit un nouvel organisme à chaque division.",
+      "Une cellule provient nécessairement d'une cellule pré-existante.",
+      "Les cycles cellulaires procaryote et eucaryote partagent certaines caractéristiques.",
+      "La complexité du cycle cellulaire oblige les cellules à le réguler précisément."
+    ],
+    "correct": [0],
+    "explanation": "Lors de la division cellulaire eucaryote, les organites (mitochondries, etc.) sont distribués entre les deux cellules filles (ils ne sont pas re-synthétisés de zéro). Les mitochondries, par exemple, se divisent par fission et sont réparties entre les cellules filles."
+  },
+  {
+    "id": "D003",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Chez les mammifères, la phase S dure environ _____, la phase M environ _____, et le cycle cellulaire environ _____.",
+    "options": [
+      "10 h / 1 h / 24 h",
+      "10 h / 1 h / 12 h",
+      "1 h / 10 h / 12 h",
+      "1 h / 10 h / 24 h"
+    ],
+    "correct": [0],
+    "explanation": "Chez les cellules de mammifères en culture, la phase S (synthèse de l'ADN) dure environ 10 heures, la phase M (mitose) environ 1 heure, et le cycle cellulaire complet environ 24 heures."
+  },
+  {
+    "id": "D004",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant le cycle cellulaire, lesquelles sont correctes ?",
+    "options": [
+      "La phase M comprend la mitose et la cytodiérèse.",
+      "Si les conditions externes sont défavorables pour la cellule lors de la phase G1, elle peut entrer en phase G0.",
+      "Lors du cycle cellulaire, les cellules passent généralement par des \"gap phases\".",
+      "L'interphase comprend les phases G1, S, G2, et cytodiérèse.",
+      "Le cycle cellulaire dure 24 h."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La phase M comprend bien la mitose (prophase, prométaphase, métaphase, anaphase, télophase) et la cytodiérèse.",
+      "En l'absence de signaux favorables à la division en G1, la cellule peut sortir du cycle et entrer en G0.",
+      "Les gap phases (G1 et G2) servent à la croissance cellulaire et à la préparation pour la division.",
+      "L'interphase comprend G1, S et G2, mais pas la cytodiérèse qui fait partie de la phase M.",
+      "24 h est une valeur typique mais variable selon le type cellulaire."
+    ]
+  },
+  {
+    "id": "D005",
+    "section": "cell_cycle",
+    "type": "rank_priorities",
+    "level": 1,
+    "question": "Classer les étapes et événements suivants du cycle cellulaire dans l'ordre.",
+    "options": [
+      "G1",
+      "Réplication de l'ADN",
+      "G2",
+      "Prophase",
+      "Métaphase",
+      "Anaphase",
+      "Division cytoplasmique"
+    ],
+    "correct": [0, 1, 2, 3, 4, 5, 6],
+    "explanation": "L'ordre correct du cycle cellulaire est : G1 (croissance) → Réplication de l'ADN (phase S) → G2 (préparation à la mitose) → Prophase → Métaphase → Anaphase → Division cytoplasmique (cytodiérèse)."
+  },
+  {
+    "id": "D006",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle est la quantité d'ADN dans une cellule pancréatique humaine en phase G2 (C = un jeu complet de chromatides) ?",
+    "options": [
+      "4 C",
+      "46",
+      "C",
+      "23",
+      "2 C"
+    ],
+    "correct": [0],
+    "explanation": "En phase G2, l'ADN a été répliqué (phase S). Une cellule diploïde contient normalement 2C d'ADN ; après réplication, elle en contient 4C (deux copies de chaque chromosome, soit 46 chromosomes chacun composé de 2 chromatides sœurs)."
+  },
+  {
+    "id": "D007",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes à propos des systèmes de contrôle du cycle cellulaire, laquelle est fausse ?",
+    "options": [
+      "Les points de contrôle du cycle cellulaire sont généralement irréversibles.",
+      "Ils sont robustes et fiables.",
+      "Ils répondent à des signaux extracellulaires.",
+      "Ils répondent à des signaux intracellulaires.",
+      "Les 3 principaux points de contrôle du cycle cellulaire sont situés à la fin de la phase G1, entre les phases G2 et M, et lors de la transition entre anaphase et télophase."
+    ],
+    "correct": [0],
+    "explanation": "Les points de contrôle du cycle cellulaire sont généralement réversibles ; les cellules peuvent s'arrêter puis reprendre leur progression si les conditions le permettent. C'est seulement lors de transitions importantes (comme le point de restriction en G1 chez les mammifères) que la progression devient irréversible."
+  },
+  {
+    "id": "D008",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes à propos des CDK, lesquelles sont fausses ?",
+    "options": [
+      "Les humains possèdent un seul type de CDK, qui peut agir différemment en fonction de la cycline à laquelle elle est liée.",
+      "Le rôle principal des CDKs est de déphosphoryler des protéines intracellulaires pour réguler le cycle cellulaire.",
+      "Différentes CDKs sont exprimées lors des différentes phases du cycle cellulaire.",
+      "Pour fonctionner correctement, une CDK doit être liée à la cycline correspondante."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Les humains possèdent plusieurs CDKs (CDK1, CDK2, CDK4, CDK6, etc.), chacune avec des rôles spécifiques dans différentes phases du cycle.",
+      "Les CDKs phosphorylent (et non déphosphorylent) des protéines cibles pour les activer ou les inhiber.",
+      "Les différentes CDKs sont bien exprimées à des moments spécifiques du cycle cellulaire.",
+      "Les CDKs ne sont actives qu'en complexe avec leur cycline partenaire."
+    ]
+  },
+  {
+    "id": "D009",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quel est le rôle de l'enzyme CAK ?",
+    "options": [
+      "Activer les complexes CDK-cycline par phosphorylation.",
+      "Il n'existe pas d'enzyme nommée CAK.",
+      "Permettre la liaison de la CDK à la cycline correspondante.",
+      "Inhiber les complexes CDK-cycline par phosphorylation.",
+      "Inhiber les complexes CDK-cycline en s'y liant."
+    ],
+    "correct": [0],
+    "explanation": "CAK (CDK-Activating Kinase) phosphoryle et active les complexes CDK-cycline. C'est une phosphorylation activatrice sur la boucle T de la CDK."
+  },
+  {
+    "id": "D010",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les principaux facteurs contrôlés par la cellule lors de la transition G2/M ?",
+    "options": [
+      "Que l'ADN soit entièrement répliqué.",
+      "Que l'ADN n'ait pas subi de dommages.",
+      "Que l'environnement soit favorable.",
+      "Que les chromosomes soient correctement attachés au fuseau mitotique."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La cellule vérifie que la réplication de l'ADN est complète avant d'entrer en mitose.",
+      "La présence de dommages à l'ADN active p53 et arrête le cycle en G2.",
+      "Des signaux environnementaux (facteurs de croissance, nutriments) influencent aussi la décision d'entrer en mitose.",
+      "L'attachement au fuseau est contrôlé lors du point de contrôle du fuseau mitotique, qui se situe à la transition métaphase-anaphase (et non G2/M)."
+    ]
+  },
+  {
+    "id": "D011",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "La transition métaphase-anaphase est principalement régulée par le complexe promoteur de l'anaphase (APC/C). Parmi les fonctions suivantes, laquelle décrit une fonction de l'APC/C ?",
+    "options": [
+      "Ubiquitinyler la sécurine pour provoquer sa destruction.",
+      "Ubiquitinyler la sécurine et les cyclines S/M pour les activer.",
+      "Phosphoryler les enzymes impliquées dans la condensation de la chromatine.",
+      "Phosphoryler et activer les protéines impliquées dans le contrôle de l'intégrité de l'ADN.",
+      "Phosphoryler le fuseau mitotique pour promouvoir son attachement aux kinétochores."
+    ],
+    "correct": [0],
+    "explanation": "L'APC/C est une ubiquitine ligase qui ubiquitinyle la sécurine, ciblant cette dernière pour la dégradation par le protéasome. La destruction de la sécurine libère la séparase, qui clive la cohésine et permet la séparation des chromatides sœurs. L'APC/C ubiquitinyle aussi les cyclines mitotiques pour permettre la sortie de la mitose."
+  },
+  {
+    "id": "D012",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de la transition métaphase-anaphase, si un chromosome n'est pas correctement attaché au _____, le complexe APC/C est inhibé, laissant du temps à la cellule pour corriger l'erreur.",
+    "options": [
+      "Fuseau mitotique",
+      "Centrosome",
+      "Kinétochore",
+      "CKI"
+    ],
+    "correct": [0],
+    "explanation": "Le point de contrôle du fuseau mitotique (SAC) détecte les kinétochores non attachés ou mal attachés au fuseau mitotique. Les kinétochores libres génèrent un signal inhibiteur (MCC) qui bloque l'APC/C et empêche la transition vers l'anaphase."
+  },
+  {
+    "id": "D013",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de la transition métaphase-anaphase, des inhibiteurs de CDK (CKI) sont ubiquitinylés par le complexe SCF, ce qui mène à leur dégradation. Quel complexe est généralement responsable de la dégradation des protéines ubiquitinylées ?",
+    "options": [
+      "Le protéasome (complexe enzymatique)",
+      "Le riboprotéasome (complexe de ribonucléoprotéines)",
+      "Le splicéosome (complexe de ribonucléoprotéines)",
+      "Le phosphatosome (complexe de phosphatases)",
+      "Le nucléosome (complexe de protéines et acides nucléiques)"
+    ],
+    "correct": [0],
+    "explanation": "Le protéasome 26S est le complexe enzymatique responsable de la dégradation des protéines ubiquitinylées. Il reconnaît la chaîne de polyubiquitine et dégrade la protéine en petits peptides."
+  },
+  {
+    "id": "D014",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "La banane Cavendish possède 33 chromosomes. Son génome est composé d'env. 0.47 Gb pour env. 37'000 gènes. En comparaison, le génome humain est composé d'env. 3.1 Gb pour env. 20'000-22'000 gènes. Que peut-on dire à propos de la banane et de son génome ?",
+    "options": [
+      "La banane est stérile, car elle possède un nombre impair de chromosomes.",
+      "L'humain est un organisme plus complexe que la banane, car il possède un génome plus long.",
+      "La longueur moyenne d'un gène de banane est d'env. 12'700 bp (0.47 Gb / 37'000).",
+      "La banane est un organisme plus complexe que l'humain, car elle possède plus de gènes."
+    ],
+    "correct": [0],
+    "explanation": "La banane Cavendish est triploïde (3n = 33) et est donc stérile par voie sexuée (elle ne peut pas réaliser une méiose équilibrée). La complexité d'un organisme ne se mesure pas uniquement à la taille ou au nombre de gènes du génome. Le calcul de la longueur moyenne d'un gène ne peut pas se faire de cette façon car le génome contient aussi de nombreuses séquences non codantes."
+  },
+  {
+    "id": "D015",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant la phase S du cycle cellulaire, lesquelles sont correctes ?",
+    "options": [
+      "La phase S intervient directement après la phase G1.",
+      "La quantité d'ADN contenu dans la cellule double lors de la phase S.",
+      "A la fin de la phase S, chaque chromosome est composé de 2 chromatides sœurs.",
+      "Le nombre de chromosomes double lors de la phase S.",
+      "La phase S est le moment de la mitose où le génome est dupliqué."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "L'ordre de l'interphase est G1 → S → G2.",
+      "La réplication de l'ADN double la quantité d'ADN par cellule.",
+      "Après la réplication, chaque chromosome est constitué de deux chromatides sœurs reliées au centromère.",
+      "Le nombre de chromosomes ne double pas ; c'est la quantité d'ADN qui double. Chaque chromosome est maintenant composé de 2 chromatides.",
+      "La phase S fait partie de l'interphase, non de la mitose."
+    ]
+  },
+  {
+    "id": "D016",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "_____ chromosomes sont visibles sur le caryotype d'un hépatocyte (cellule du foie) humain ; _____ chromosomes sont visibles sur le caryotype d'un neurone humain.",
+    "options": [
+      "46 / 46",
+      "23 / 23",
+      "Cela dépend de la phase du cycle cellulaire.",
+      "23 / 46",
+      "46 / 23"
+    ],
+    "correct": [0],
+    "explanation": "Les hépatocytes et les neurones sont tous deux des cellules somatiques diploïdes humaines, contenant chacun 46 chromosomes (23 paires). Le caryotype est réalisé sur des cellules en métaphase, où les chromosomes sont visibles et condensés."
+  },
+  {
+    "id": "D017",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Combien d'origines de réplication contient le génome humain ?",
+    "options": [
+      "Beaucoup",
+      "1 par chromosome",
+      "2 par chromosome (1 à chaque extrémité)",
+      "1"
+    ],
+    "correct": [0],
+    "explanation": "Le génome humain contient des dizaines de milliers d'origines de réplication (environ 30'000 à 50'000). Cela est nécessaire pour répliquer l'ensemble du génome en un temps raisonnable (environ 8 heures), car l'ADN polymérase ne peut synthétiser qu'environ 50 nt/s."
+  },
+  {
+    "id": "D018",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant la réplication de l'ADN et sa régulation lors du cycle cellulaire, laquelle est fausse ?",
+    "options": [
+      "A la fin de la mitose/début de la phase G1, des hélicases actives se lient aux origines de réplication pour former le prereplicative complex (preRC).",
+      "La cohésine est un complexe protéique qui forme des structures circulaires autour des chromatides sœurs.",
+      "Les hélicases sont des enzymes dont le rôle est d'ouvrir la double hélice d'ADN.",
+      "La CDK-S stimule la production d'histones, qui sont directement incorporées au niveau de la fourche de réplication.",
+      "La réplication de l'ADN ne doit avoir lieu qu'une seule fois par cycle cellulaire."
+    ],
+    "correct": [0],
+    "explanation": "Le preRC (pre-replicative complex) est assemblé à la fin de la mitose/début de G1, mais les hélicases (MCM2-7) sont chargées sous forme inactive. Ce sont les CDK-S et DDK qui les activent au début de la phase S. Les hélicases actives ne se lient pas aux origines dès la fin de la mitose."
+  },
+  {
+    "id": "D019",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les événements suivants, lequel n'a pas lieu lors de la phase M du cycle cellulaire ?",
+    "options": [
+      "La réplication de l'ADN.",
+      "Transition métaphase-anaphase.",
+      "Séparation des deux cellules filles.",
+      "Séparation des génomes entre les deux cellules filles.",
+      "Point de contrôle du fuseau mitotique."
+    ],
+    "correct": [0],
+    "explanation": "La réplication de l'ADN a lieu lors de la phase S (interphase), et non lors de la phase M. La phase M comprend la mitose (prophase, prométaphase, métaphase, anaphase, télophase) et la cytodiérèse."
+  },
+  {
+    "id": "D020",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant le début de la mitose, laquelle est correcte ?",
+    "options": [
+      "Les CDK-M phosphorylent des protéines, ce qui induit la formation du fuseau mitotique.",
+      "Lors de la transition G2/M, une diminution brusque de CDK-M est observée.",
+      "Lors de la transition métaphase-anaphase, le complexe APC/C induit la destruction de la condensine, libérant une protéase qui clive la cohésine.",
+      "Les CDK-S phosphorylent des protéines, ce qui induit l'activation de la condensine et la condensation des chromosomes."
+    ],
+    "correct": [0],
+    "explanation": "Les CDK-M (complexes CDK1-cyclineB) phosphorylent de nombreuses protéines lors de l'entrée en mitose, notamment les protéines impliquées dans la formation du fuseau mitotique, la condensation des chromosomes et la dissolution de l'enveloppe nucléaire."
+  },
+  {
+    "id": "D021",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant le fuseau mitotique est fausse ?",
+    "options": [
+      "Le fuseau mitotique doit avoir 2 ou 4 pôles pour fonctionner correctement.",
+      "Les microtubules kinétochoriens sont attachés aux chromatides sœurs via les kinétochores.",
+      "Les centrosomes sont composés d'une paire de centrioles et de matrice péricentriolaire. Leur duplication a lieu lors de la phase S.",
+      "L'assemblage du fuseau mitotique est induit par les CDK-M.",
+      "Le fuseau mitotique est composé d'un réseau bipolaire de microtubules."
+    ],
+    "correct": [0],
+    "explanation": "Un fuseau mitotique fonctionnel est strictement bipolaire (2 pôles). Un fuseau à 4 pôles entraînerait une mauvaise ségrégation chromosomique."
+  },
+  {
+    "id": "D022",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "La prophase est la première phase de la mitose. Parmi les événements suivants, lesquels ont lieu pendant la prophase ?",
+    "options": [
+      "La chromatine se condense.",
+      "Les chromosomes deviennent visibles.",
+      "Les centrioles migrent aux pôles opposés de la cellule.",
+      "Le fuseau de filaments d'actine se forme.",
+      "Dégradation de l'enveloppe nucléaire."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La condensation de la chromatine est l'un des premiers événements de la prophase.",
+      "La condensation permet la visualisation des chromosomes individuels.",
+      "Les centrioles (centrosomes) migrent vers les pôles opposés en prophase.",
+      "C'est le fuseau mitotique (microtubules) qui se forme, pas un fuseau d'actine.",
+      "La dégradation de l'enveloppe nucléaire a lieu en prométaphase."
+    ]
+  },
+  {
+    "id": "D023",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant la métaphase, lesquelles sont fausses ?",
+    "options": [
+      "L'enveloppe nucléaire se dégrade.",
+      "La cohésine, qui lie les chromatides sœurs, est dégradée, permettant la séparation des chromatides.",
+      "Les chromosomes sont alignés sur la plaque métaphasique.",
+      "Les microtubules du fuseau mitotique sont liés aux kinétochores.",
+      "Le point de contrôle du fuseau mitotique contrôle le passage de la métaphase à l'anaphase."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "L'enveloppe nucléaire se dégrade en prométaphase, avant la métaphase.",
+      "La cohésine est clivée en anaphase (pas en métaphase), ce qui permet la séparation des chromatides sœurs.",
+      "L'alignement des chromosomes sur la plaque métaphasique est une caractéristique distinctive de la métaphase.",
+      "Les microtubules kinétochoriens s'attachent aux kinétochores de chaque chromatide.",
+      "Le SAC vérifie que tous les kinétochores sont bien attachés avant d'autoriser le passage à l'anaphase."
+    ]
+  },
+  {
+    "id": "D024",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Le schéma illustre la transition métaphase-anaphase. Quel est le nom de la molécule orange, qui joue un rôle important lors de ce point de contrôle ?",
+    "options": [
+      "Sécurine",
+      "Cohésine",
+      "Séparase",
+      "APC/C"
+    ],
+    "correct": [0],
+    "explanation": "La sécurine est une protéine inhibitrice qui maintient la séparase inactive. Lors de la transition métaphase-anaphase, l'APC/C ubiquitinyle la sécurine, qui est dégradée par le protéasome, libérant ainsi la séparase active pour cliver la cohésine."
+  },
+  {
+    "id": "D025",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de l'anaphase, les microtubules kinétochoriens sont raccourcis et les chromatides migrent de part et d'autre de la cellule. Quelle propriété des microtubules permet leur raccourcissement ?",
+    "options": [
+      "Les microtubules sont instables et peuvent s'allonger/raccourcir rapidement.",
+      "Les microtubules ne sont pas régulés et peuvent donc raccourcir rapidement.",
+      "Les microtubules sont composés d'actine."
+    ],
+    "correct": [0],
+    "explanation": "Les microtubules présentent une instabilité dynamique : ils alternent spontanément entre phases de croissance et de dépolymérisation rapide (catastrophe). Cette propriété permet leur raccourcissement lors de l'anaphase pour tirer les chromatides vers les pôles."
+  },
+  {
+    "id": "D026",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "La phase M du cycle cellulaire se termine par la télophase et la cytodiérèse. Quels événements ont lieu lors de la télophase ?",
+    "options": [
+      "Reformation de la membrane nucléaire.",
+      "Décondensation de la chromatine.",
+      "Reformation du cytosquelette par réorganisation des microtubules.",
+      "Création de deux cellules filles.",
+      "Scission de la membrane plasmique."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La membrane nucléaire se reforme autour de chaque groupe de chromosomes en télophase.",
+      "Les chromosomes se décondensent en chromatine lors de la télophase.",
+      "Le fuseau mitotique se désassemble et le cytosquelette se réorganise.",
+      "La création de deux cellules filles distinctes est accomplie lors de la cytodiérèse.",
+      "La scission de la membrane plasmique (clivage) est un événement de la cytodiérèse."
+    ]
+  },
+  {
+    "id": "D027",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "La phase M du cycle cellulaire se termine par la télophase et la cytodiérèse. Quels événements ont lieu lors de la cytodiérèse ?",
+    "options": [
+      "Création de deux cellules filles.",
+      "Scission de la membrane plasmique.",
+      "Décondensation de la chromatine.",
+      "Reformation du cytosquelette par réorganisation des microtubules.",
+      "Reformation de la membrane nucléaire."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "La cytodiérèse aboutit à la formation de deux cellules filles distinctes.",
+      "La scission de la membrane plasmique via l'anneau contractile d'actine-myosine caractérise la cytodiérèse.",
+      "La décondensation de la chromatine a lieu en télophase.",
+      "La réorganisation du cytosquelette débute en télophase.",
+      "La reformation de la membrane nucléaire a lieu en télophase."
+    ]
+  },
+  {
+    "id": "D028",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Lors de la cytodiérèse, un anneau contractile se forme pour séparer les deux cellules filles. De quoi est composé cet anneau contractile ?",
+    "options": [
+      "Myosine",
+      "Actine",
+      "Microtubules",
+      "Cohésine",
+      "Tubuline"
+    ],
+    "correct": [0, 1],
+    "explanation": "L'anneau contractile est composé d'actine et de myosine II. La contraction de l'anneau, similaire à la contraction musculaire, provoque l'étranglement de la membrane plasmique et la séparation des deux cellules filles."
+  },
+  {
+    "id": "D029",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Les papillons du genre Polyommatus sont parmi les animaux qui comptent le plus de chromosomes. Une cellule somatique possède 268 chromosomes. Sachant que ces papillons sont diploïdes, combien de chromosomes possèdent leurs spermatozoïdes ? Et leurs ovocytes ?",
+    "options": [
+      "134/134",
+      "268/134",
+      "134/268",
+      "268/268"
+    ],
+    "correct": [0],
+    "explanation": "Les spermatozoïdes et ovocytes sont des gamètes haploïdes, produits par méiose. Une cellule diploïde à 268 chromosomes (2n = 268) produit des gamètes à n = 134 chromosomes. Les deux types de gamètes (spermatozoïdes et ovocytes) contiennent le même nombre de chromosomes : 134."
+  },
+  {
+    "id": "D030",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "À la puberté, les femmes possèdent env. 300'000 ovocytes primaires. Combien de chromosomes X cela représente-t-il ?",
+    "options": [
+      "~ 600'000",
+      "~ 300'000",
+      "~ 450'000",
+      "0"
+    ],
+    "correct": [0],
+    "explanation": "Les ovocytes primaires sont des cellules diploïdes (2n = 46) qui n'ont pas encore terminé leur méiose. Elles possèdent donc deux chromosomes X chacune (XX). 300'000 ovocytes × 2 chromosomes X = 600'000 chromosomes X."
+  },
+  {
+    "id": "D031",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Une fois la puberté atteinte, les hommes produisent env. 100 millions de spermatozoïdes par jour. Combien de chromosomes X cela représente-t-il ?",
+    "options": [
+      "~ 50 millions",
+      "~ 100 millions",
+      "~ 150 millions",
+      "~ 200 millions",
+      "0"
+    ],
+    "correct": [0],
+    "explanation": "Les spermatozoïdes sont haploïdes et portent soit un chromosome X, soit un chromosome Y. Environ la moitié des spermatozoïdes portent un chromosome X, soit ~50 millions de chromosomes X par jour sur les ~100 millions de spermatozoïdes produits."
+  },
+  {
+    "id": "D032",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Combien de cellules sont produites par méiose d'une cellule diploïde ?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3",
+      "8"
+    ],
+    "correct": [0],
+    "explanation": "La méiose comprend deux divisions successives (méiose I et méiose II) à partir d'une seule cellule diploïde. La méiose I produit 2 cellules haploïdes, et la méiose II divise ces 2 cellules pour donner 4 cellules haploïdes au total."
+  },
+  {
+    "id": "D033",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La méiose est composée de deux divisions : la méiose I (division _____) et la méiose II (division _____).",
+    "options": [
+      "Réductionnelle / équationnelle",
+      "Réductionnelle / réactionnelle",
+      "Réactionnelle / réductionnelle",
+      "Équationnelle / réductionnelle",
+      "Réactionnelle / équationnelle"
+    ],
+    "correct": [0],
+    "explanation": "La méiose I est une division réductionnelle car elle réduit la ploïdie de 2n à n (séparation des chromosomes homologues). La méiose II est une division équationnelle car elle sépare les chromatides sœurs, comme la mitose, sans changer la ploïdie."
+  },
+  {
+    "id": "D034",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de la prophase I, deux chromosomes homologues s'associent pour former la structure ci-dessous. Comment s'appelle cette structure ?",
+    "options": [
+      "Tétrade",
+      "Triade",
+      "Duade",
+      "COS (crossing-over site)",
+      "Trièdre"
+    ],
+    "correct": [0],
+    "explanation": "Lors de la prophase I, les deux chromosomes homologues (chacun constitué de 2 chromatides sœurs) s'associent pour former une tétrade (ou bivalent), composée de 4 chromatides. C'est lors de cette étape que les enjambements (crossing-over) se produisent."
+  },
+  {
+    "id": "D035",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Les enjambements (crossing-over) se produisent lors de la méiose I. À quoi servent-ils ?",
+    "options": [
+      "Générer de la variation génétique.",
+      "Assurer la ségrégation des chromosomes homologues.",
+      "Permettre l'alignement des chromosomes homologues sur la plaque métaphasique.",
+      "Raccourcir les chromosomes pour la méiose II.",
+      "Passer le point de contrôle de la méiose I."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Les enjambements mélangent les allèles entre chromosomes homologues, créant de nouvelles combinaisons alléliques.",
+      "Les chiasmata (points de croisement physique résultant des enjambements) maintiennent les chromosomes homologues ensemble, assurant leur bonne ségrégation.",
+      "Les chiasmata contribuent à la stabilisation des bivalents sur la plaque métaphasique.",
+      "Les enjambements ne raccourcissent pas les chromosomes.",
+      "Les enjambements ne sont pas directement liés au point de contrôle de la méiose I."
+    ]
+  },
+  {
+    "id": "D036",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La méiose I produit deux cellules. Quelle est la ploïdie de ces cellules ?",
+    "options": [
+      "Haploïde",
+      "Diploïde",
+      "Tétraploïde",
+      "Mixte"
+    ],
+    "correct": [0],
+    "explanation": "Après la méiose I (division réductionnelle), chaque cellule fille contient n chromosomes (un chromosome de chaque paire homologue), chacun composé de 2 chromatides sœurs. Les cellules sont donc haploïdes."
+  },
+  {
+    "id": "D037",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "La méiose I produit deux cellules. Combien de chromatides contient chacune de ces cellules (pour une espèce humaine) ?",
+    "options": [
+      "46",
+      "0",
+      "23",
+      "92",
+      "1"
+    ],
+    "correct": [0],
+    "explanation": "Après la méiose I, chaque cellule contient 23 chromosomes, chacun composé de 2 chromatides sœurs (résultat de la réplication de l'ADN en phase S). Cela représente 23 × 2 = 46 chromatides par cellule."
+  },
+  {
+    "id": "D038",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors d'un enjambement (crossing-over), l'ADN se recombine à un point de contact. Quel est le nom de ce point de contact ?",
+    "options": [
+      "Chiasma",
+      "Point bivalent",
+      "Triade",
+      "Centromère",
+      "Tétrade"
+    ],
+    "correct": [0],
+    "explanation": "Un chiasma (pluriel : chiasmata) est le point de croisement visible entre deux chromatides non sœurs lors d'un enjambement. Il représente le site où a eu lieu l'échange de matériel génétique entre chromosomes homologues."
+  },
+  {
+    "id": "D039",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant la méiose, lesquelles sont correctes ?",
+    "options": [
+      "Chaque spermatocyte créé par division mitotique des spermatogonies produit 4 spermatozoïdes.",
+      "La méiose II est essentiellement similaire à la mitose.",
+      "Il est presque impossible que deux gamètes humains soient génétiquement identiques.",
+      "La méiose produit deux cellules génétiquement identiques.",
+      "La méiose produit deux cellules génétiquement uniques."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Chaque spermatocyte primaire subit deux divisions méiotiques pour produire 4 spermatozoïdes fonctionnels.",
+      "La méiose II sépare les chromatides sœurs, de manière similaire à la mitose (mais sans réplication préalable).",
+      "Grâce aux enjambements et à la ségrégation aléatoire des chromosomes homologues, chaque gamète est génétiquement unique.",
+      "La méiose produit 4 cellules génétiquement différentes (pas identiques).",
+      "La méiose produit 4 (et non 2) cellules haploïdes."
+    ]
+  },
+  {
+    "id": "D040",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Si l'on néglige la variation génétique due aux enjambements et aux mutations, combien de gamètes différents peuvent être produits par un humain ?",
+    "options": [
+      "~ 8 millions",
+      "46",
+      "92",
+      "~ 8'000",
+      "~ 8 milliards"
+    ],
+    "correct": [0],
+    "explanation": "L'assortiment indépendant des 23 paires de chromosomes homologues lors de la méiose I peut générer 2²³ ≈ 8 millions de combinaisons chromosomiques différentes. Les enjambements augmentent encore davantage cette diversité."
+  },
+  {
+    "id": "D041",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Chez les femmes, la méiose I est complétée lors de _____, alors que la méiose II est complétée lors de _____.",
+    "options": [
+      "Développement in utero / l'ovulation.",
+      "Embryogenèse / la puberté.",
+      "La puberté / l'ovulation.",
+      "La fécondation / l'ovulation.",
+      "L'ovulation / la fécondation."
+    ],
+    "correct": [0],
+    "explanation": "Chez les femmes, la méiose I débute pendant le développement fœtal et est bloquée en prophase I. Elle est complétée peu avant l'ovulation. La méiose II est bloquée en métaphase II et ne s'achève qu'en cas de fécondation."
+  },
+  {
+    "id": "D042",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Vrai ou faux : La gamétogenèse mâle produit 4 gamètes, mais un seul est fonctionnel.",
+    "options": [
+      "Faux",
+      "Vrai"
+    ],
+    "correct": [0],
+    "explanation": "C'est faux. La gamétogenèse mâle (spermatogenèse) produit 4 spermatozoïdes fonctionnels à partir d'un spermatocyte primaire. C'est la gamétogenèse femelle (ovogenèse) qui produit un seul ovocyte fonctionnel et 3 globules polaires non fonctionnels."
+  },
+  {
+    "id": "D043",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lorsqu'une séparation non-équitable (non-disjonction) des chromosomes ou des chromatides a lieu pendant la méiose, cela résulte en un nombre aberrant de chromosomes dans les gamètes. Comment appelle-t-on cette situation ?",
+    "options": [
+      "Aneuploïdie",
+      "Monosomie",
+      "Syndrome de Turner",
+      "Trisomie",
+      "Polyploïdie"
+    ],
+    "correct": [0],
+    "explanation": "L'aneuploïdie désigne tout état où le nombre de chromosomes n'est pas un multiple exact du nombre haploïde. La monosomie (2n-1) et la trisomie (2n+1) sont des exemples d'aneuploïdie. Le syndrome de Turner (45, X) est une monosomie spécifique."
+  },
+  {
+    "id": "D044",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Le syndrome triple X est caractérisé par la présence de trois chromosomes X. Combien de chromosomes X sont généralement actifs dans les cellules somatiques des femmes présentant un syndrome triple X ?",
+    "options": [
+      "1",
+      "0",
+      "3",
+      "0 ou 1",
+      "2"
+    ],
+    "correct": [0],
+    "explanation": "Chez les mammifères, la compensation de dosage fait que seul un chromosome X est actif par cellule somatique (inactivation du X, ou lyonisation). Chez une femme XXX, deux chromosomes X sont inactivés (corps de Barr), laissant un seul X actif, comme dans les cellules XX normales."
+  },
+  {
+    "id": "D045",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les réponses suivantes, laquelle décrit le mieux le syndrome de Klinefelter ?",
+    "options": [
+      "XXY",
+      "Trisomie XXY",
+      "XXX",
+      "Syndrome de Turner",
+      "XYY",
+      "YYY"
+    ],
+    "correct": [0],
+    "explanation": "Le syndrome de Klinefelter est caractérisé par le caryotype 47, XXY. Ces individus sont phénotypiquement masculins mais présentent une infertilité et d'autres caractéristiques liées à l'excès de chromosome X."
+  },
+  {
+    "id": "D046",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel est le sexe d'un patient atteint du syndrome de Turner ?",
+    "options": [
+      "Féminin ♀",
+      "Neutre",
+      "Masculin ♂"
+    ],
+    "correct": [0],
+    "explanation": "Le syndrome de Turner est caractérisé par le caryotype 45, X (monosomie X). Ces individus sont phénotypiquement féminins (car l'absence de chromosome Y empêche le développement masculin), mais présentent diverses caractéristiques dont l'infertilité."
+  },
+  {
+    "id": "D047",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "De quoi dépend la taille d'un organe ou organisme ?",
+    "options": [
+      "Nombre de divisions et morts cellulaires",
+      "Croissance cellulaire",
+      "Taille des cellules",
+      "Division cellulaire",
+      "Nombre de cellules"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "La taille d'un organe ou organisme dépend à la fois du nombre de cellules (déterminé par l'équilibre entre divisions et morts cellulaires) et de la taille individuelle des cellules (déterminée par la croissance cellulaire). Tous ces paramètres contribuent à la taille finale."
+  },
+  {
+    "id": "D048",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Les molécules extracellulaires qui régulent la croissance, la division et la survie cellulaires peuvent être divisées en 3 classes. Lesquelles ?",
+    "options": [
+      "Mitogènes",
+      "Facteurs de survie",
+      "Facteurs de croissance",
+      "Méiogènes",
+      "Facteurs de dégradation"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Les trois classes de signaux extracellulaires qui régulent le comportement cellulaire sont les mitogènes (stimulent la division), les facteurs de survie (inhibent l'apoptose) et les facteurs de croissance (stimulent la croissance/synthèse de macromolécules)."
+  },
+  {
+    "id": "D049",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant les mitogènes, laquelle est fausse ?",
+    "options": [
+      "Lors de la coagulation, les globules rouges relâchent un mitogène, le PDGF (platelet-derived growth factor).",
+      "Les mitogènes promeuvent la division cellulaire.",
+      "Les mitogènes qui promeuvent la prolifération d'une cellule proviennent généralement de cellules voisines.",
+      "Pour proliférer, les cellules des organismes multicellulaires ont besoin de signaux externes, sous forme de mitogènes."
+    ],
+    "correct": [0],
+    "explanation": "Le PDGF est libéré par les plaquettes (thrombocytes), et non par les globules rouges (érythrocytes). Les plaquettes sont libérées lors de la coagulation et favorisent la cicatrisation via le PDGF."
+  },
+  {
+    "id": "D050",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant l'état de non-division G0, lesquelles sont correctes ?",
+    "options": [
+      "Les neurones sont généralement en phase G0 terminalement différenciée.",
+      "La plupart des cellules du corps humain sont en état de non-division G0.",
+      "Sans signal de mitogène, la progression du cycle cellulaire est bloquée.",
+      "Lorsqu'une cellule entre en phase G0, elle ne peut plus en sortir."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Les neurones post-mitotiques sont des exemples de cellules en G0 terminale.",
+      "La majorité des cellules du corps humain adulte ne se divisent pas activement.",
+      "Les mitogènes sont nécessaires pour activer les CDK et permettre la progression du cycle.",
+      "Certaines cellules (comme les lymphocytes au repos) peuvent sortir de G0 en réponse à des stimuli appropriés."
+    ]
+  },
+  {
+    "id": "D051",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant le lien entre les mitogènes et les CDK, laquelle est fausse ?",
+    "options": [
+      "Les complexes M-CDK activent les protéines E2F, qui se lient à des séquences d'ADN et assurent la production des protéines requises pour avancer dans le cycle cellulaire.",
+      "La voie de signalisation MAPK passe par l'activation de la GTPase Ras.",
+      "Les contrôles transcriptionnels incluent généralement des boucles de rétroaction, qui assurent que le cycle cellulaire soit complet et irréversible.",
+      "Les mitogènes activent des voies de signalisation.",
+      "Les mitogènes interagissent généralement avec des récepteurs de surface."
+    ],
+    "correct": [0],
+    "explanation": "Ce sont les complexes G1/S-CDK (CDK4/6-cyclineD et CDK2-cyclineE) qui phosphorylent Rb, libérant ainsi E2F pour activer la transcription des gènes de la phase S. Les complexes M-CDK sont impliqués dans l'entrée en mitose, pas dans l'activation de E2F."
+  },
+  {
+    "id": "D052",
+    "section": "cell_cycle",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant les dommages à l'ADN, laquelle est correcte ?",
+    "options": [
+      "Les dommages à l'ADN mènent à la phosphorylation de p53.",
+      "Les dommages à l'ADN sont un exemple de signal extracellulaire qui régule le cycle cellulaire.",
+      "Lorsqu'une cellule ne peut pas réparer son ADN, elle devient généralement cancéreuse.",
+      "Quand il n'y a pas de dommages à l'ADN, le lipide p53 est ubiquitinylé et dégradé.",
+      "p53 active le cycle cellulaire."
+    ],
+    "correct": [0],
+    "explanation": "Lors de dommages à l'ADN, des kinases (ATM, ATR, Chk1, Chk2) phosphorylent p53, empêchant sa dégradation par MDM2 et permettant son accumulation. p53 est une protéine (non un lipide) qui, une fois activée, arrête le cycle cellulaire et favorise la réparation de l'ADN ou l'apoptose."
+  },
+  {
+    "id": "D053",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Quelles différences existent entre des cellules cancéreuses et des cellules saines ?",
+    "options": [
+      "Le raccourcissement des télomères est détecté comme un dommage à l'ADN et active p53.",
+      "Les fibroblastes possèdent un nombre limité de divisions, suite à quoi ils entrent dans un état de sénescence réplicative.",
+      "De nombreuses cellules cancéreuses possèdent des mutations dans p53.",
+      "La plupart des cellules somatiques peuvent se diviser indéfiniment.",
+      "De nombreuses cellules saines expriment la télomérase, ce qui leur permet de mieux réparer leur ADN."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Le raccourcissement des télomères déclenche une réponse aux dommages à l'ADN via p53, menant à la sénescence ou à l'apoptose.",
+      "La sénescence réplicative est due au raccourcissement des télomères après un nombre fini de divisions (limite de Hayflick).",
+      "Les mutations de p53 sont parmi les altérations les plus fréquentes dans les cancers humains.",
+      "Les cellules somatiques normales ont une capacité de division limitée (sénescence réplicative).",
+      "La télomérase est exprimée dans les cellules germinales et les cellules souches, mais généralement pas dans les cellules somatiques saines."
+    ]
+  },
+  {
+    "id": "D054",
+    "section": "cell_cycle",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant la prolifération des cellules cancéreuses, lesquelles sont fausses ?",
+    "options": [
+      "Dans la voie de signalisation PI3K/mTOR, la kinase TOR active le lipide PIP3.",
+      "Les voies de signalisation activées par des facteurs de croissance promeuvent généralement l'internalisation de nutriments.",
+      "Les voies de signalisation activées par des facteurs de croissance mènent à l'accumulation de protéines.",
+      "L'augmentation des macromolécules est due à la fois à une augmentation de leur synthèse et une diminution de leur dégradation.",
+      "L'hyperactivité de Ras ou Myc mène généralement à la surprolifération cellulaire."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "C'est l'inverse : PIP3 (lipide) active la kinase AKT, qui à son tour active mTOR. TOR n'active pas PIP3.",
+      "Les voies de signalisation activées par les facteurs de croissance promeuvent l'import de nutriments (et non l'internalisation/export), permettant la synthèse de macromolécules.",
+      "L'accumulation de protéines (et d'autres macromolécules) est bien une conséquence de l'activation de ces voies.",
+      "Les facteurs de croissance activent à la fois la synthèse et inhibent la dégradation des macromolécules.",
+      "Ras et Myc sont des proto-oncogènes dont l'hyperactivation favorise la prolifération non contrôlée."
+    ]
+  }
+]

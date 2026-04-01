@@ -1,0 +1,772 @@
+[
+  {
+    "id": "C001",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle est la vitesse moyenne d'élongation d'une ARN polymérase procaryote, en nucléotides (nt) par unité de temps ?",
+    "options": [
+      "10-100 nt/s",
+      "Env. 500 nt/s",
+      "Env. 100000 nt/s",
+      "0.1-1 nt/s",
+      "Env. 10 nt/min"
+    ],
+    "correct": [0],
+    "explanation": "La vitesse moyenne d'une ARN polymérase procaryote pendant la phase d'élongation est d'environ 20-50 nt/s (jusqu'à 100 nt/s selon certaines études)."
+  },
+  {
+    "id": "C002",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans une molécule d'ADN, à quelle base est appariée la guanine ?",
+    "options": [
+      "Cytosine",
+      "Adénine",
+      "Guanine",
+      "Glutamine",
+      "Cystéine",
+      "Thymine",
+      "Uracile"
+    ],
+    "correct": [0],
+    "explanation": [
+      "Dans une molécule d'ADN ou d'ARN, la cytosine s'apparie à la guanine (C-G).",
+      "Dans une molécule d'ADN, l'adénine s'apparie à la thymine (A-T). Dans une molécule d'ARN, l'adénine s'apparie à l'uracile (A-U).",
+      "Dans une molécule d'ADN ou d'ARN, la guanine s'apparie à la cytosine (C-G).",
+      "La glutamine est un acide aminé.",
+      "La cystéine est un acide aminé.",
+      "Dans une molécule d'ADN, la thymine s'apparie à l'adénine (A-T). La thymine n'est pas présente dans l'ARN, où l'adénine s'apparie à l'uracile (A-U).",
+      "Dans une molécule d'ARN, l'uracile s'apparie à l'adénine (A-U). L'uracile n'est pas présent dans l'ADN, où l'adénine s'apparie à la thymine (A-T)."
+    ]
+  },
+  {
+    "id": "C003",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans une molécule d'ARN, à quelle base est appariée la guanine ?",
+    "options": [
+      "Cytosine",
+      "Adénine",
+      "Guanine",
+      "Glutamine",
+      "Cystéine",
+      "Thymine",
+      "Uracile"
+    ],
+    "correct": [0],
+    "explanation": [
+      "Dans une molécule d'ADN ou d'ARN, la cytosine s'apparie à la guanine (C-G).",
+      "Dans une molécule d'ADN, l'adénine s'apparie à la thymine (A-T). Dans une molécule d'ARN, l'adénine s'apparie à l'uracile (A-U).",
+      "Dans une molécule d'ADN ou d'ARN, la guanine s'apparie à la cytosine (C-G).",
+      "La glutamine est un acide aminé.",
+      "La cystéine est un acide aminé.",
+      "Dans une molécule d'ADN, la thymine s'apparie à l'adénine (A-T). La thymine n'est pas présente dans l'ARN, où l'adénine s'apparie à l'uracile (A-U).",
+      "Dans une molécule d'ARN, l'uracile s'apparie à l'adénine (A-U). L'uracile n'est pas présent dans l'ADN, où l'adénine s'apparie à la thymine (A-T)."
+    ]
+  },
+  {
+    "id": "C004",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de l'initiation de la transcription chez les procaryotes, un facteur ___ reconnaît et se lie à des séquences consensus centrées en ___ par rapport au site d'initiation.",
+    "options": [
+      "σ (sigma) / -35 bp et -10 bp",
+      "σ (sigma) / -50 bp et -25 bp",
+      "λ (lambda) / -50 bp et -25 bp",
+      "λ (lambda) / -10 bp et -5 bp",
+      "λ (lambda) / -5 bp et +5 bp"
+    ],
+    "correct": [0],
+    "explanation": "Le facteur σ se lie à des séquences consensus généralement centrées en -35 bp et -10 bp. Le facteur λ n'existe pas."
+  },
+  {
+    "id": "C005",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "L'initiation de la transcription chez les procaryotes implique des séquences consensus en amont du site d'initiation. Quel est l'espacement le plus fréquent entre ces deux séquences ?",
+    "options": [
+      "17 bp",
+      "18 bp",
+      "20 bp",
+      "16 bp",
+      "19 bp"
+    ],
+    "correct": [0],
+    "explanation": "L'espacement le plus fréquent entre les deux séquences consensus situées en amont du site d'initiation est de 17 bp. D'autres espacements existent également, mais ils sont moins fréquents."
+  },
+  {
+    "id": "C006",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Comment s'appelle le brin d'ADN qui possède la même séquence que le transcrit d'ARN ?",
+    "options": [
+      "Codant",
+      "Non transcrit",
+      "Transcrit",
+      "Pré-transcrit",
+      "Matrice"
+    ],
+    "correct": [0, 1],
+    "explanation": "Le brin codant (ou non transcrit) possède la même séquence que le transcrit d'ARN, tandis que le brin matrice (ou transcrit) sert de matrice à l'ARN polymérase pour la transcription et est donc complémentaire au transcrit d'ARN."
+  },
+  {
+    "id": "C007",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Lors de la terminaison de la transcription chez les procaryotes, le transcrit d'ARN forme une structure en épingle à cheveux (aussi appelée \"tige-boucle\"). Quelle séquence suit directement cette structure ?",
+    "options": [
+      "Queue poly(U)",
+      "Queue poly(G)",
+      "Queue poly(T)",
+      "Queue poly(C)",
+      "Queue poly(A)"
+    ],
+    "correct": [0],
+    "explanation": "La queue poly(U) déstabilise l'interaction entre le transcrit d'ARN et le brin matrice de la molécule d'ADN."
+  },
+  {
+    "id": "C008",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Si la transcription a lieu dans la direction 3' → 5' (vers l'amont) de l'ADN, quel brin d'ADN est le brin codant ?",
+    "options": [
+      "Brin 3'-5'",
+      "Brin 5'-3'"
+    ],
+    "correct": [0],
+    "explanation": "Si la transcription a lieu dans la direction 3'-5' (vers l'amont), le brin 5'-3' sert de matrice. Le brin 3'-5' est donc le brin codant."
+  },
+  {
+    "id": "C009",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La plupart des gènes d'un organisme ne sont exprimés que lorsque l'organisme en a besoin, afin de ne pas dépenser inutilement de l'énergie pour la transcription et la traduction. Certains gènes sont en revanche si importants pour la survie de l'organisme qu'ils sont transcrits en permanence. Comment s'appellent de tels gènes ?",
+    "options": [
+      "Gènes constitutifs",
+      "Gènes facultatifs",
+      "Gènes permanents",
+      "Gènes inductibles",
+      "Gènes régulateurs"
+    ],
+    "correct": [0],
+    "explanation": [
+      "Les gènes constitutifs sont exprimés sans régulation particulière, généralement dans toutes les cellules de l'organisme.",
+      "Les gènes facultatifs ne sont exprimés que quand l'organisme en a besoin. Ils s'opposent aux gènes constitutifs, qui sont exprimés en permanence. Il n'y a pas besoin de connaître ce terme.",
+      "Ce terme n'existe pas.",
+      "Les gènes inductibles ne sont exprimés qu'en présence d'une molécule particulière. Il n'y a pas besoin de connaître ce terme.",
+      "Les gènes régulateurs régulent l'expression d'autres gènes. Il n'y a pas besoin de connaître ce terme."
+    ]
+  },
+  {
+    "id": "C010",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quatre des cinq gènes suivants font partie du même opéron. Quel gène n'en fait pas partie ?\nN. B. : Il n'y a pas besoin de savoir de quel opéron il s'agit pour répondre à cette question, ni quelles sont les moléecules et enzymes mentionnées ci-dessous.",
+    "options": [
+      "Le gène A encode une déshydrogénase qui convertit le semialdéhyde succinique en succinate.",
+      "Le gène B encode une protéine capable de se lier à l'ADN et de se dimériser en présence d'arabinose.",
+      "Le gène C encode une isomérase qui convertit l'arabinose en ribulose.",
+      "Le gène D encode une épimérase qui convertit le ribulose-5-phosphate en xylulose-5-phosphate.",
+      "Le gène E encode une ribulokinase qui phosphoryle le ribulose en ribulose-5-phosphate."
+    ],
+    "correct": [0],
+    "explanation": "Pour répondre à cette question, il faut se rappeler que les gènes d'un opéron participent à une même fonction, généralement à une même voie métabolique. Ici, un lien peut être fait entre quatre des cinq gènes, qui font tous partie de l'opéron ara, impliqué dans le métabolisme de l'arabinose. Une chaîne peut ainsi être construite entre trois gènes : la protéine encodée par le gène C convertit l'arabinose en ribulose, qui est ensuite converti en ribulose-5-phosphate par la protéine encodée par le gène E et la protéine encodée par le gène D convertit finalement le ribulose-5-phosphate en xylulose-5-phosphate. Le gène B utilise quant à lui l'arabinose, ce qui suggère qu'il fait partie de la même voie métabolique. En revanche, le gène A n'a aucun lien avec les quatre autres gènes, ce qui suggère qu'il ne fait pas partie de la même voie métabolique et du même opéron."
+  },
+  {
+    "id": "C011",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant l'opéron trp, lesquelles sont correctes ?",
+    "options": [
+      "L'opéron trp est inactif en présence de tryptophane.",
+      "La régulation de l'opéron trp est un exemple de régulation négative.",
+      "La régulation de l'opéron trp est un exemple de régulation positive.",
+      "L'opéron trp est actif en présence de tryptophane.",
+      "Le tryptophane et l'ADN sont en compétition pour se lier à la protéine trpR."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "En présence de tryptophane, la bactérie n'a pas besoin de synthétiser du tryptophane et la transcription de l'opéron trp est donc réprimée.",
+      "L'opéron trp est régulé par le répresseur trpR, qui inhibe la transcription lorsqu'il est lié à l'ADN. Lorsque la régulation implique un répresseur, on parle de \"régulation négative\" (ou \"contrôle négatif\"), par opposition à la \"régulation positive\" (ou \"contrôle positif\") qui désigne la régulation par un activateur.",
+      "L'opéron trp est régulé par le répresseur trpR, qui inhibe la transcription lorsqu'il est lié à l'ADN. Lorsque la régulation implique un répresseur, on parle de \"régulation négative\" (ou \"contrôle négatif\"), par opposition à la \"régulation positive\" (ou \"contrôle positif\") qui désigne la régulation par un activateur.",
+      "En présence de tryptophane, la bactérie n'a pas besoin de synthétiser du tryptophane et la transcription de l'opéron trp est donc réprimée.",
+      "Le tryptophane et l'ADN ne se lient pas sur le même site du répresseur trpR et ne sont donc pas en compétition. En fait, la liaison de trpR à l'ADN nécessite la liaison préalable du tryptophane à trpR."
+    ]
+  },
+  {
+    "id": "C012",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles sont les deux conditions nécessaires pour que l'opéron lac soit actif ?",
+    "options": [
+      "Absence de glucose",
+      "Présence de lactose",
+      "Absence de lactose",
+      "Présence de glucose"
+    ],
+    "correct": [0, 1],
+    "explanation": "L'opéron lac, dont les produits sont impliqués dans le métabolisme du lactose, est actif uniquement en présence de lactose et absence de glucose. En présence de glucose, la bactérie utilise le glucose et n'a donc pas besoin des produits impliqués dans le métabolisme du lactose, peu importe que du lactose soit présent ou non. D'autre part, en absence de lactose, la bactérie n'a pas besoin des produits impliqués dans le métabolisme du lactose."
+  },
+  {
+    "id": "C013",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant l'opéron lac, laquelle est fausse ?",
+    "options": [
+      "La liaison de la protéine lacI à l'ADN est une condition nécessaire mais pas suffisante pour que l'opéron lac soit actif.",
+      "Les produits des gènes de l'opéron lac sont impliqués dans le catabolisme du lactose.",
+      "La liaison de la protéine CAP à l'ADN est une condition nécessaire mais pas suffisante pour que l'opéron lac soit actif.",
+      "Le gène lacI ne fait pas partie de l'opéron lac, bien que son produit participe à la régulation de l'opéron.",
+      "L'opéron lac est à la fois un exemple de régulation positive et de régulation négative."
+    ],
+    "correct": [0],
+    "explanation": [
+      "L'opéron lac est actif uniquement lorsque la protéine CAP est liée à l'ADN et la protéine lacI n'est pas liée à l'ADN.",
+      "L'opéron lac est composé de trois gènes structuraux (lacA, lacY, lacZ), qui codent pour des enzymes impliquées dans le catabolisme du lactose.",
+      "L'opéron lac est actif uniquement lorsque la protéine CAP est liée à l'ADN et la protéine lacI n'est pas liée à l'ADN.",
+      "Le répresseur lacI participe activement à la régulation de l'opéron lac, mais le gène qui l'encode ne fait pas directement partie de l'opéron.",
+      "L'opéron lac est un exemple de régulation positive, caractérisée par la liaison d'un activateur à l'ADN (protéine CAP), et un exemple de régulation négative, caractérisée par la liaison d'un répresseur à l'ADN (protéine lacI)."
+    ]
+  },
+  {
+    "id": "C014",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les modes de régulation transcriptionnelle suivants, lesquels sont utilisés par les bactéries ?",
+    "options": [
+      "Facteurs σ (sigma) spécifiques",
+      "Groupement de gènes en opérons",
+      "Formation de boucles d'ADN",
+      "Régulation épigénétique via des modifications post-traductionnelles d'histones",
+      "Liaison différentielle du facteur de transcription TFIID à la boîte TATA."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Les bactéries utilisent des facteurs σ (sigma) spécifiques qui guident différentiellement l'ARN polymérase vers des groupes de gènes à transcrire.",
+      "Les bactéries utilisent des opérons pour réguler la transcription de gènes impliqués dans une même fonction.",
+      "Les procaryotes et les eucaryotes utilisent des boucles d'ADN pour réguler la transcription.",
+      "Les bactéries ne possèdent pas d'histones.",
+      "Le facteur de transcription TFIID et la boîte TATA sont spécifiques aux eucaryotes."
+    ]
+  },
+  {
+    "id": "C015",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Chez les humains, quelle ARN polymérase transcrit les gènes des petits ARN nucléolaires (snoRNA) ?",
+    "options": [
+      "ARN polymérase II",
+      "ARN polymérase I",
+      "ARN polymérase III",
+      "ARN polymérase IV",
+      "ARN polymérase V"
+    ],
+    "correct": [0],
+    "explanation": [
+      "L'ARN polymérase II transcrit les gènes codant pour des protéines, et les gènes des petits ARN nucléolaires (snoRNA) et de certains petits ARN nucléaires (snRNA).",
+      "L'ARN polymérase I transcrit les gènes des ARN ribosomiques (ARNr ou rRNA) 5.8 S (Svedberg), 18 S et 28 S.",
+      "L'ARN polymérase III transcrit les gènes de l'ARN ribosomique (ARNr ou rRNA) 5 S (Svedberg), des ARN de transfert (ARNt ou tRNA), de certains petits ARN nucléaires (snRNA), et d'autres petits ARN.",
+      "L'ARN polymérase IV est une enzyme uniquement présente chez les plantes. Il n'y a rien à savoir à ce propos.",
+      "L'ARN polymérase V est une enzyme uniquement présente chez les plantes. Il n'y a rien à savoir à ce propos."
+    ]
+  },
+  {
+    "id": "C016",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant l'initiation de la transcription chez les eucaryotes, laquelle est fausse ?",
+    "options": [
+      "Les facteurs de transcription spécifiques sont nécessaires pour la transcription basale.",
+      "La boîte TATA fait partie du promoteur.",
+      "Le facteur de transcription TFIIB se lie à l'élément BRE, tandis que le facteur de transcription TFIID se lie à la boîte TATA.",
+      "Le facteur de transcription TFIIH est responsable à la fois de l'ouverture de la double hélice d'ADN et de la phosphorylation du domaine C-terminal (CTD) de l'ARN polymérase II.",
+      "Les facteurs de transcription TFIIB, TFIID, TFIIE, TFIIF et TFIIH sont nécessaires à l'initiation de la transcription."
+    ],
+    "correct": [0],
+    "explanation": "Les facteurs de transcription généraux, qui sont nécessaires pour la liaison de l'ARN polymérase au promoteur minimal et son déplacement pendant la phase d'élongation, sont requis pour la transcription basale. Les facteurs de transcription spécifiques régulent le taux de transcription des gènes alentour et influencent la capacité de l'ARN polymérase à initier la transcription d'un gène particulier."
+  },
+  {
+    "id": "C017",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les événements qui ont lieu lors de la maturation de l'ARN chez les eucaryotes ?",
+    "options": [
+      "Ajout de la coiffe en 5'",
+      "Épissage",
+      "Ajout d'une 7-méthylguanosine en 5' via une liaison triphosphate",
+      "Ajout de la queue poly(A) en 3'",
+      "Ajout de la queue poly(U) en 3'"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": [
+      "L'ajout de la coiffe en 5' est le premier des trois processus de la maturation de l'ARN.",
+      "L'épissage et le deuxième des trois processus de la maturation de l'ARN.",
+      "Il s'agit du processus moléculaire de l'ajout de la coiffe en 5'.",
+      "L'ajout de la queue poly(A) en 3' est le troisième et dernier processus de la maturation de l'ARN.",
+      "Les trois processus de la maturation de l'ARN sont l'ajout de la coiffe en 5', l'épissage et l'ajout de la queue poly(A) en 3'."
+    ]
+  },
+  {
+    "id": "C018",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels composants font partie du splicéosome, le complexe moléculaire responsable de l'épissage des pré-ARNm en ARNm ?",
+    "options": [
+      "Petits ARN nucléaires (snRNA)",
+      "Protéines",
+      "Petits ARN interférents (siRNA)",
+      "ADN",
+      "Petits ARN nucléolaires (snoRNA)"
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Des petits ARN nucléaires (snRNA) s'associent à des protéines pour former des petites ribonucléoprotéines nucléaires (snRNP). Celles-ci s'associent ensuite à d'autres protéines pour former le splicéosome.",
+      "Le splicéosome est composé de nombreuses protéines. Certaines sont directement associées à des petits ARN nucléaires (snRNA) et forment des petites ribonucléoprotéines nucléaires (snRNP), tandis que d'autres ne sont pas directement associées à de l'ARN.",
+      "Les petits ARN interférents (siRNA) peuvent se lier à l'ARNm et réguler son expression. Sauf erreur, vous n'en avez pas parlé cette année.",
+      "Le splicéosome est composé de petits ARN nucléaires (snRNA) et de protéines.",
+      "Les petits ARN nucléolaires (snoRNA) sont impliqués dans la maturation des ARN ribosomiques (rRNA)."
+    ]
+  },
+  {
+    "id": "C019",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes à propos de l'épissage, laquelle est correcte ?",
+    "options": [
+      "Les protéines impliquées dans l'épissage sont recrutées avant les facteurs de clivage impliqués dans l'ajout de la queue poly(A).",
+      "L'état de phosphorylation des alanines du domaine C-terminal (CTD) de l'ARN polymérase II détermine quelles protéines impliquées dans la maturation du pré-ARNm en ARNm sont recrutées sur le transcrit.",
+      "Lors de l'épissage, les exons sont excisés du pré-ARNm.",
+      "Le début d'un intron est caractérisé par la séquence AG et la fin par la séquence GU.",
+      "L'épissage alternatif permet à plusieurs gènes de coder pour la même protéine."
+    ],
+    "correct": [0],
+    "explanation":[
+      "Lors de la maturation du pré-ARNm en ARNm, les facteurs d'ajout de la coiffe sont recrutés en premier, puis les protéines impliquées dans l'épissage, et finalement les protéines impliquées dans l'ajout de la queue poly(A).",
+      "Il s'agit de l'état de phosphorylation des sérines. L'alanine ne peut pas être phosphorylée.",
+      "Les exons font partie de l'ARNm, tandis que les introns sont excisés du pré-ARNm lors de l'épissage.",
+      "C'est l'inverse : le début d'un intron est caractérisé par la séquence GU et la fin la séquence AG. Il existe également une adénine conservée, située approximativement au milieu de l'intron.",
+      "C'est l'inverse : l'épissage alternatif permet à un gène de coder pour plusieurs protéines différentes."
+    ]
+  },
+  {
+    "id": "C020",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les rôles de la coiffe et de la queue poly(A) d'un ARN messager (ARNm) ?",
+    "options": [
+      "Empêcher la dégradation de l'ARN.",
+      "Réguler l'export nucléaire.",
+      "Aider à différencier divers types d'ARN.",
+      "Permettre la formation d'une structure en épingle à cheveux.",
+      "Aider à recruter les petites ribonucléoprotéines nucléaires (snRNPs) nécessaires à l'épissage."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "L'ARN se dégrade généralement à partir de ses extrémités. La coiffe permet donc de protéger l'extrémité 5', tandis que la queue poly(A) permet de protéger l'extrémité 3'.",
+      "Pour qu'un ARNm soit exporté, il doit nécessairement posséder une coiffe en 5' et une queue poly(A) en 3'. Ces structures interagissent avec des molécules impliquées dans l'export nucléaire.",
+      "Les différents types d'ARN possèdent des caractéristiques distinctives, ce qui permet de les différencier. L'ARNm possède une coiffe en 5' et une queue poly(A) en 3'.",
+      "La coiffe et la queue poly(A) ne sont pas impliquées dans ce processus.",
+      "La coiffe et la queue poly(A) ne sont pas impliquées dans ce processus."
+    ]
+  },
+  {
+    "id": "C021",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "En général, qu'arrive-t-il à un ARN messager (ARNm) qui n'est pas exporté hors du noyau, p. ex. en raison d'une maturation incomplète ?",
+    "options": [
+      "Il est dégradé à partir de l'extrémité 3' par l'exosome nucléaire.",
+      "Il migre vers le réticulum endoplasmique rugueux, où il finit sa maturation.",
+      "Il migre vers l'appareil de Golgi, où il finit sa maturation.",
+      "Il est dégradé à partir de l'extrémité 5' par l'endosome nucléaire.",
+      "Il migre vers le réticulum endoplasmique lisse, où il finit sa maturation."
+    ],
+    "correct": [0],
+    "explanation": "Un ARNm qui ne peut pas être exporté est dégradé dans le noyau à partir de l'extrémité 3' par un complexe enzymatique appelé \"exosome nucléaire\"."
+  },
+  {
+    "id": "C022",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant la régulation de la transcription, laquelle est fausse ?",
+    "options": [
+      "Lors de la formation de boucles d'ADN, l'interaction des amplificateurs (enhancers) avec le gène correspondant permet de réprimer la transcription.",
+      "La région de contrôle d'un gène comprend l'ensemble des séquences d'ADN qui sont impliquées dans la régulation de la transcription de ce gène.",
+      "Le contrôle combinatoire de l'expression génétique est rendu possible par l'interaction physique des séquences régulatrices et de leurs protéines associées.",
+      "Dans l'exemple du développement de la drosophile, des gradients de concentration de facteurs de transcription déterminent où certains gènes sont exprimés.",
+      "L'expression d'un gène peut être visualisée expérimentalement à l'aide d'un gène rapporteur."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Les amplificateurs (enhancers) activent la transcription.",
+      "Il s'agit de la définition d'une région de contrôle d'un gène.",
+      "Cette interaction est notamment rendue possible par l'action du médiateur et des protéines responsables de la courbure de l'ADN.",
+      "Les gradients de concentration des facteurs de transcription Bicoid, Hunchback, Giant et Krüppel déterminent où le gène eve est exprimé.",
+      "L'utilisation de lacZ (gène rapporteur) permet par exemple de visualiser où le gène eve est exprimé dans l'embryon de la drosophile."
+    ]
+  },
+  {
+    "id": "C023",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant le code génétique, laquelle est fausse ?",
+    "options": [
+      "Le code génétique est composé de 61 codons (4³ - 3 STOP = 61).",
+      "Plusieurs codons différents peuvent coder pour le même acide aminé.",
+      "Le code génétique est redondant, mais sans ambiguïté.",
+      "Il existe 3 codons STOP et 1 codon START.",
+      "Un codon ne code que pour un seul acide aminé."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Il existe bien 3 codons STOP, mais ceux-ci restent néanmoins des codons. Il y a donc 4³ = 64 codons différents.",
+      "Cette propriété du code génétique est appelée \"redondance\".",
+      "Un acide aminé peut être encodé par plusieurs codons (redondance), mais un codon ne code que pour un seul acide aminé (sans ambiguïté).",
+      "Le codon AUG est le codon START et code pour la méthionine. Les codons UAG, UGA et UAA sont des codons STOP et ne codent pour aucun acide aminé.",
+      "Un codon ne code que pour un seul acide aminé : on dit que le code génétique est \"sans ambiguïté\"."
+    ]
+  },
+  {
+    "id": "C024",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels composants/structures font partie d'un ribosome humain ?",
+    "options": [
+      "Sous-unité 60 S",
+      "ARN ribosomique (ARNr) 5 S",
+      "ARN messager (ARNm)",
+      "Sous-unité 30 S",
+      "ARN ribosomique (ARNr) 23 S"
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Il s'agit de la grande sous-unité des ribosomes eucaryotes.",
+      "L'ARNr 5 S fait partie de la grande sous-unité des ribosomes eucaryotes.",
+      "L'ARNm est lu par les ribosomes mais n'en fait pas partie à proprement parler.",
+      "La sous-unité 30 S est la petite sous-unité des ribosomes procaryotes.",
+      "L'ARNr 23 S fait partie de la grande sous-unité des ribosomes procaryotes."
+    ]
+  },
+  {
+    "id": "C025",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Combien de sites de liaison à l'ARN comporte un ribosome ?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct": [0],
+    "explanation": "Un ribosome contient trois sites de liaison à l'ARNt (E, P, A) et un site de liaison à l'ARNm."
+  },
+  {
+    "id": "C026",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant les ribosomes, laquelle est fausse ?",
+    "options": [
+      "Les ARN ribosomiques (ARNr) 5 S, 18 S et 28 S sont transcrits en un pré-ARNr unique, qui est ensuite clivé pour donner plusieurs molécules d'ARNr.",
+      "Les différences entre les ribosomes procaryotes et eucaryotes peuvent être utilisées pour développer des médicaments.",
+      "Chez certains organismes eucaryotes, l'ARN ribosomique (ARNr) 28 S est clivé en deux sous-unités (α, β) lors de sa maturation.",
+      "Plusieurs ribosomes peuvent traduire la même molécule d'ARNm en même temps.",
+      "La synthèse et la maturation de certains ARN ribosomiques (ARNr) ont lieu dans le nucléole."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Le mécanisme est correct, mais il s'agit des ARNr 5.8 S, 18 S et 28 S. L'ARNr 5 S est transcrit à part.",
+      "Les différences entres les ribosomes procaryotes et eucaryotes permettent à certains antibiotiques d'inhiber uniquement les ribosomes procaryotes.",
+      "Chez certaines espèces (notamment d'insectes), la maturation de l'ARNr 28 S comporte une étape supplémentaire, qui consiste à cliver l'ARNr 28 S en deux fragments (α, β) qui restent liés par des liaisons hydrogène.",
+      "Cet ensemble de ribosomes est appelé \"polyribosome\".",
+      "La synthèse et la maturation des ARNr 5.8 S, 18 S et 28 S ont lieu dans le nucléole."
+    ]
+  },
+  {
+    "id": "C027",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant les ARN de transfert (ARNt), lesquelles sont correctes ?",
+    "options": [
+      "Le phénomène de vacillement peut permettre à un ARNt de se lier à plusieurs codons différents.",
+      "Si le mauvais acide aminé est chargé sur un ARNt, l'aminoacyl-ARNt synthétase peut généralement corriger son erreur.",
+      "Les pré-ARNt subissent un épissage et une maturation avant de devenir des ARNt matures.",
+      "Le site de liaison de l'acide aminé est situé à l'extrémité 5' de l'ARNt.",
+      "Un ARNt mature est long d'environ 250 nucléotides."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Ces codons codent toutefois tous pour le même acide aminé. Ce phénomène permet de réduire le nombre d'ARNt nécessaires dans une cellule.",
+      "L'aminoacyl-ARNt synthétase possède un mécanisme de correction.",
+      "La maturation implique notamment la modification de bases et l'ajout du site de liaison de l'acide aminé à l'extrémité 3'.",
+      "Le site de liaison de l'acide aminé est situé à l'extrémité 3' de l'ARNt.",
+      "La longueur d'un ARNt mature est d'environ 75-90 nucléotides."
+    ]
+  },
+  {
+    "id": "C028",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant la traduction, lesquelles sont fausses ?",
+    "options": [
+      "La liaison d'un facteur de terminaison au site E (exit) du ribosome indique la terminaison de la traduction.",
+      "Le premier ARN de transfert (ARNt) impliqué dans la traduction est chargé avec de la méthionine et se lie au site E (exit) du ribosome.",
+      "Lors de la translocation du ribosome sur l'ARN messager (ARNm), la petite sous-unité avance avant la grande sous-unité.",
+      "Contrairement aux ARN de transfert (ARNt), le facteur de terminaison qui indique la fin de la traduction est une protéine.",
+      "La formation de la première liaison peptidique d'un polypeptide est catalysée par l'ARN ribosomique (ARNr)."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Le facteur de terminaison se lie au site A (aminoacyl-ARNt) du ribosome.",
+      "Le premier ARNt impliqué dans la traduction est effectivement chargé avec de la méthionine, mais il se lie au site P (peptidyl-ARNt) et non au site E (exit). Les ARNt suivants se lient ensuite au site A (aminoacyl-ARNt).",
+      "C'est l'inverse : la translocation de la grande sous-unité du ribosome a lieu avant la translocation de la petite sous-unité.",
+      "Le facteur de terminaison est une protéine, dont la forme ressemble à celle d'un ARN de transfert (ARNt).",
+      "L'ARN ribosomique (ARNr) possède des propriétés catalytiques : on parle de \"ribozyme\"."
+    ]
+  },
+  {
+    "id": "C029",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles maladies sont dues, au moins en partie, à des agrégats de protéines ?",
+    "options": [
+      "Maladie d'Alzheimer",
+      "Maladie de Parkinson",
+      "Chorée du Huntington",
+      "Maladie de Creutzfeldt-Jakob",
+      "Anémie falciforme"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "L'anémie falciforme est due à une mutation dans une sous-unité de l'hémoglobine, entraînant une déformation des globules rouges."
+  },
+  {
+    "id": "C030",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans la structure en double hélice de l'ADN, quelles liaisons chimiques sont formées entre deux bases azotées complémentaires et permettent aux deux brins de rester liés ?",
+    "options": [
+      "Liaisons hydrogène",
+      "Liaisons covalentes",
+      "Liaisons de van der Waals",
+      "Liaisons ioniques",
+      "Ponts disulfures"
+    ],
+    "correct": [0],
+    "explanation": "L'adénine et la thymine sont reliées entre elles par 2 liaisons hydrogène ; la cytosine et la guanine sont reliées entre elles par 3 liaisons hydrogène."
+  },
+  {
+    "id": "C031",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "L'expérience de Meselson et Stahl (1958) a permis de mettre en évidence le mécanisme de la réplication de l'ADN. Quelle en fut la conclusion principale ?",
+    "options": [
+      "La réplication de l'ADN est semi-conservative.",
+      "La réplication de l'ADN est dispersive.",
+      "Pour éviter que l'ADN ne se referme une fois ouvert, les cellules utilisent des protéines de liaison à l'ADN simple brin (SSBP).",
+      "La réplication de l'ADN est conservative.",
+      "La réplication de l'ADN nécessite une hélicase."
+    ],
+    "correct": [0],
+    "explanation": "L'expérience de Meselson et Stahl a permis d'exclure les modèles conservatif et dispersif de la réplication de l'ADN, en faveur du modèle semi-conservatif."
+  },
+  {
+    "id": "C032",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les protéines suivantes, lesquelles sont impliquées directement ou indirectement dans la réplication de l'ADN ?",
+    "options": [
+      "Protéines de liaison à l'ADN simple brin (SSBP)",
+      "ADN polymérase ADN-dépendante",
+      "Hélicase",
+      "ADN primase",
+      "ARN polymérase ADN-dépendante",
+      "ARN polymérase ARN-dépendante",
+      "ADN polymérase ARN-dépendante"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": [
+      "Une fois la double hélice d'ADN ouverte, les protéines de liaison à l'ADN simple brin se lient aux brins de l'ADN pour éviter que la double hélice ne se referme.",
+      "Les ADN polymérases sont les principales enzymes impliquées dans la réplication de l'ADN : elles synthétisent de l'ADN à partir d'une matrice d'ADN.",
+      "Les hélicases ouvrent la double hélice d'ADN.",
+      "L'ADN primase synthétise les amorces d'ARN nécessaires à la réplication de l'ADN. Malgré son nom, l'ADN primase (parfois simplement appelée \"primase\") est une ARN polymérase.",
+      "L'ADN primase, qui synthétise les amorces d'ARN, est une ARN polymérase ADN-dépendante : elle synthétise des amorces d'ARN à partir d'une matrice d'ADN.",
+      "Les ARN polymérases ARN-dépendantes, qui synthétisent de l'ARN à partit d'une matrice d'ARN, sont principalement retrouvées chez certains virus. Elles ne sont pas impliquées dans la réplication de l'ADN.",
+      "La transcriptase inverse est un exemple d'ADN polymérase ARN-dépendante : elle synthétise de l'ADN à partir d'une matrice d'ARN. Elle n'est pas impliquée dans la réplication de l'ADN."
+    ]
+  },
+  {
+    "id": "C033",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "L'ADN polymérase synthétise le brin continu dans la direction ___ et le brin discontinu dans la direction ___.",
+    "options": [
+      "5' → 3' / 5' → 3'",
+      "3' → 5' / 5' → 3'",
+      "5' → 3' / 3' → 5'",
+      "3' → 5' / 3' → 5'",
+      "Cela dépend de quel brin est choisi comme brin parental."
+    ],
+    "correct": [0],
+    "explanation": "L'ADN polymérase synthétise toujours l'ADN dans la direction 5' → 3'."
+  },
+  {
+    "id": "C034",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans quelle direction sont synthétisés les fragments d'Okazaki (brin discontinu) ?",
+    "options": [
+      "5' → 3'",
+      "3' → 5'",
+      "Cela dépend de la polymérase utilisée par la cellule.",
+      "Extrémité N-terminale → extrémité P-terminale",
+      "Extrémité P-terminale → extrémité N-terminale"
+    ],
+    "correct": [0],
+    "explanation": "Toutes les ADN polymérases synthétisent de l'ADN dans la direction 5' → 3'."
+  },
+  {
+    "id": "C035",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel est le rôle de l'ADN polymérase I lors de la réplication de l'ADN ?",
+    "options": [
+      "Remplacer les amorces d'ARN par de l'ADN.",
+      "Ouvrir la double hélice d'ADN.",
+      "Synthétiser une amorce d'ARN pour débuter la réplication.",
+      "Remplacer les amorces d'ADN par de l'ADN complémentaire.",
+      "Synthétiser une amorce d'ADN pour débuter la réplication."
+    ],
+    "correct": [0],
+    "explanation": [
+      "L'ADN polymérase I enlève les nucléotides d'ARN des amorces à partir de l'extrémité 5' et les remplace par des nucléotides d'ADN.",
+      "L'ouverture (ou déroulement) de la double hélice d'ADN en aval de la fourche de réplication est réalisée par une hélicase.",
+      "Les amorces d'ARN sont synthétisées par l'ADN primase.",
+      "La réplication de l'ADN implique des amorces d'ARN (pas d'ADN), synthétisées par l'ADN primase.",
+      "La réplication de l'ADN implique des amorces d'ARN (pas d'ADN), synthétisées par l'ADN primase."
+    ]
+  },
+  {
+    "id": "C036",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Les origines de réplication de l'ADN contiennent généralement des séquences spécifiques. Quelle est leur principale particularité ?",
+    "options": [
+      "Elles sont riches en adénine (A) et thymine (T), car la liaison A-T est moins stable que la liaison C-G.",
+      "Elles sont riches en alanine (A) et thréonine (T), car la liaison A-T est moins stable que la liaison C-G.",
+      "Elles sont riches en cystéine (C) et glycine (G), car la liaison C-G est moins stable que la liaison A-T.",
+      "Elles sont riches en cytosine (C) et glycine (G), car la liaison C-G est moins stable que la liaison A-T.",
+      "Elles sont riches en cytosine (C) et guanine (G), car la liaison C-G est moins stable que la liaison A-T."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Les liaisons A-T sont formées de seulement 2 liaisons hydrogène, contre 3 pour les liaisons C-G, et sont donc moins stables que les liaisons C-G.",
+      "Dans l'ADN, \"A\" correspond à \"adénine\" et \"T\" à \"thymine\". L'alanine et la thréonine sont des acides aminés.",
+      "Dans l'ADN, \"C\" correspond à \"cytosine\" et \"G\" à \"guanine\". La cystéine et la glycine sont des acides aminés.",
+      "Dans l'ADN, \"G\" correspond à \"guanine\". La glycine est un acide aminé.",
+      "Les liaisons C-G sont formées de 3 liaisons hydrogène, contre seulement 2 pour les liaisons A-T, et sont donc plus stables que les liaisons A-T."
+    ]
+  },
+  {
+    "id": "C037",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les informations suivantes concernant les topoisomérases, lesquelles sont correctes ?",
+    "options": [
+      "La topoisomérase I permet de remédier au surenroulement de l'ADN induit par le stress torsionnel.",
+      "La topoisomérase II permet de démêler les deux hélices d'ADN à la fin de la réplication.",
+      "Des inhibiteurs de la topoisomérase I peuvent être utilisés comme médicaments, p. ex. antibiotiques ou anticancéreux.",
+      "La topoisomérase II coupe un seul brin d'ADN de manière transitoire.",
+      "Les topoisomérases I et II sont fonctionnellement identiques."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La topoisomérase I coupe un brin d'ADN, assure une rotation contrôlée des brins d'ADN, et relie les deux brins entre eux, ce qui permet de remédier au surenroulement de l'ADN.",
+      "La topoisomérase II coupe les deux brins d'ADN, démêle les deux double hélices d'ADN, et relie les brins coupés.",
+      "Les topoisomérases I bactérienne et eucaryote sont différentes, de sorte que les inhibiteurs de la topoisomérase I bactérienne (mais pas de la topoisomérase I eucaryote) peuvent être utilisés comme antibiotiques. Les inhibiteurs de la topoisomérase I eucaryote peuvent être utilisés comme médicaments anticancéreux, car ils inhibent la réplication de l'ADN et s'attaquent principalement aux cellules cancéreuses, qui se divisent en continu et répliquent donc leur ADN plus souvent que les cellules normales. Des inhibiteurs de la topoisomérase II existent aussi, sur le même principe.",
+      "La topoisomérase I coupe un seul brin d'ADN de manière transitoire. La topoisomérase II coupe les deux brins d'ADN de manière transitoire.",
+      "La topoisomérase I permet de rémedier au surenroulement de l'ADN en coupant un seul brin d'ADN, alors que la topoisomérase II permet principalement de démêler les deux hélices d'ADN à la fin de la réplication en coupant les deux brins d'ADN (mais elle peut aussi remédier au surenroulement de l'ADN)."
+    ]
+  },
+  {
+    "id": "C038",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant les télomères, lesquelles sont fausses ?",
+    "options": [
+      "Les télomérases sont inactives dans la plupart des cellules souches.",
+      "Les télomères des chromosomes bactériens correspondent à la région où la réplication s'achève.",
+      "La télomérase est une enzyme dont le rôle est de raccourcir la longueur des télomères, permettant ainsi de diminuer le risque de cancers.",
+      "Les télomères eucaryotes et procaryotes sont structurellement identiques, mais fonctionnellement différents.",
+      "La télomérase est une enzyme dont le rôle est de maintenir la longueur des télomères."
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": [
+      "Les télomérases sont inactives dans la plupart des cellules somatiques, mais actives dans la plupart des cellules souches.",
+      "Les chromosomes bactériens sont circulaires et ne contiennent pas de télomères.",
+      "La télomérase allonge les télomères pour éviter leur raccourcissement naturel.",
+      "Les chromosomes procaryotes sont circulaires et ne contiennent donc pas de télomères.",
+      "Les télomères ont une tendance naturelle à se raccourcir au fil des réplications de l'ADN. La télomérase permet d'y remédier et de maintenir la longueur des télomères."
+    ]
+  },
+  {
+    "id": "C039",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les affirmations suivantes concernant les théories du vieillissement, lesquelles sont correctes ?",
+    "options": [
+      "Les théories du vieillissement biologique sont principalement divisées en deux classes : stochastiques et non stochastiques.",
+      "Il existe 3 principales théories évolutives du vieillissement : l'accumulation des mutations, la pléiotropie antagoniste, et le soma jetable.",
+      "La théorie de la pléiotropie antagoniste affirme qu'un gène pourrait être bénéfique pour la capacité de reproduction, mais nuisible pour la survie.",
+      "L'apoptose est une forme de mort cellulaire incontrôlée, qui peut notamment se produire en cas d'infection.",
+      "L'environnement est l'unique cause du vieillissement ; le vieillissement n'existerait pas dans un environnement hypothétique protégé."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Les théories stochastiques font référence à l'accumulation de mutations, tandis que les théories non stochastiques font référence à la pléiotropie antagoniste et à la théorie du soma jetable.",
+      "L'accumulation de mutations est une théorie stochastique du viellissement, tandis que la pléiotropie antagoniste et le soma jetable sont des théories non stochastiques.",
+      "Dans ce cas, le vieillissement serait \"programmé\", c'est-à-dire non stochastique.",
+      "L'apoptose est une forme de mort cellulaire contrôlée.",
+      "Même dans un environnement hypothétique protégé, le vieillissement existe. Pourquoi ? C'est justement la question à laquelle les théories évolutives du vieillissement tentent de répondre."
+    ]
+  }
+]
