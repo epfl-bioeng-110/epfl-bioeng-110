@@ -552,6 +552,21 @@
             }
         }
 
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            #summary-dual-score > div {
+                grid-template-columns: 1fr !important;
+            }
+            .stat-value {
+                font-size: 1.8rem;
+            }
+            #summary-stats-grid .stat-card {
+                padding: 1rem;
+            }
+        }
+
         /* Top bar (theme toggle) */
         #top-bar {
             display: flex;
@@ -3380,7 +3395,7 @@
                 const contentDiv = document.createElement('div');
                 contentDiv.style.flex = '1';
                 contentDiv.style.cursor = 'pointer';
-                contentDiv.onclick = () => showQuestionModal(question, lastAnswer);
+                contentDiv.onclick = () => showQuestionModal(question, lastAnswer, true);
                 const secLabels = { biomolecules: 'Biomolécules', genetics: 'Génétique', molecular: 'Biologie moléculaire'};
                 contentDiv.innerHTML = `
                     <strong>${question.id}</strong> · ${secLabels[question.section] || question.section} · Niveau ${question.level}<br>
@@ -3539,7 +3554,7 @@
         }
 
         // Modal pour afficher une question
-        function showQuestionModal(question, answer) {
+        function showQuestionModal(question, answer, hideExplanation = false) {
             const typeLabel = question.type === 'multiple-choice' ? 'QCM' : 'QCU'; document.getElementById('modal-question-id').textContent = `${question.id} · Niveau ${question.level} · ${typeLabel}`;
             
             let content = `<div class="question-text">${question.question}</div>`;
@@ -3568,9 +3583,11 @@
             if (question.hint) {
                 content += `<div class="hint" style="margin-top: 1rem;"><strong>💡 Indice :</strong> ${question.hint}</div>`;
             }
-            
-            const explanation = Array.isArray(question.explanation) ? question.explanation.join('<br>') : question.explanation;
-            content += `<div class="explanation" style="margin-top: 1rem;"><strong>Explication :</strong><br>${explanation}</div>`;
+
+            if (!hideExplanation) {
+                const explanation = Array.isArray(question.explanation) ? question.explanation.join('<br>') : question.explanation;
+                content += `<div class="explanation" style="margin-top: 1rem;"><strong>Explication :</strong><br>${explanation}</div>`;
+            }
             
             document.getElementById('modal-question-content').innerHTML = content;
             document.getElementById('question-modal').classList.add('active');
