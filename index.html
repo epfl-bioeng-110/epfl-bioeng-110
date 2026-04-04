@@ -3339,7 +3339,7 @@
                 
                 const item = document.createElement('div');
                 item.className = 'question-item';
-                item.onclick = () => showQuestionModal(question, lastAnswer);
+                item.onclick = () => showQuestionModal(question, lastAnswer, true);
                 item.innerHTML = `
                     <div>
                         <strong>${question.id}</strong>: ${question.question.substring(0, 50)}...
