@@ -1073,5 +1073,167 @@
     ],
     "correct": [0, 1],
     "explanation": "Les deux mécanismes qui permettent de corriger les cassures double brin de l'ADN sont la jonction d'extrémités non-homologues (NHEJ) et la recombinaison homologue (HR)."
+  },
+  {
+    "id": "C056",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel mécanisme de réparation de l'ADN n'est pas correctement associé à l'un de ses rôles ?",
+    "options": [
+      "Tous les mécanismes de réparation sont correctement associés à leur rôle.",
+      "MMR : Réparer les erreurs de réplication sur le brin nouvellement synthétisé.",
+      "NER : Réparer les dommages causés par les UV.",
+      "BER : Réparer des modifications chimiques survenues au niveau d'une base individuelle.",
+      "NHEJ : Réparer les cassures double brin en absence de chromatide soeur.",
+      "HR : Réparer les cassures double brin en présence de chromatide soeur."
+    ],
+    "correct": [0],
+    "explanation": "Chaque mécanisme de réparation est spécifique à un type de dommages."
+  },
+  {
+    "id": "C057",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Le mismatch repair (MMR) est un mécanisme de surveillance et de réparation des erreurs de réplication. Quelles affirmations sont correctes ?",
+    "options": [
+      "Chez les bactéries, les protéines MutS et MutL détectent la distorsion de la double hélice d'ADN.",
+      "Pour savoir quel brin est nouvellement synthétisé, les procaryotes utilisent un mécanisme de marquage basé sur la méthylation différentielle du brin parental et du brin nouvellement synthétisé.",
+      "Pour reconnaître le \"lagging strand\", les eucaryotes reconnaissent les coupures dues aux fragments d'Okazaki.",
+      "Pour reconnaître le \"leading strand\", les eucaryotes reconnaissent les coupures dues aux fragments d'Okazaki.",
+      "Lorsque le MMR ne fonctionne pas, des maladies comme Xeroderma pigmentosum peuvent se développer."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Il s'agit de la première étape de la réparation des erreurs de copie (MMR).",
+      "Chez les procaryotes, l'ADN est méthylé. Juste après la réplication, le nouveau brin n'est pas encore méthylé et peut donc être reconnu.",
+      "Cela permet aux eucaryotes de reconnaître le brin nouvellement synthétisé en cas d'erreur de réplication.",
+      "On ne sait pas comment le \"leading strand\" est reconnu.",
+      "Xeroderma pigmentosum est une maladie due au mauvais fonctionnement du mécanisme NER. Si le mécanisme MMR ne fonctionne pas, des maladies comme le syndrome de Lynch peuvent survenir."
+    ]
+  },
+  {
+    "id": "C058",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Les patients atteints de Xeroderma pigmentosum doivent drastiquement limiter leur exposition au soleil. Pourquoi ?",
+    "options": [
+      "Le mécanisme NER ne fonctionne pas et les mutations induites par les rayons UV ne peuvent donc pas être réparées correctement.",
+      "Ils possèdent un risque élevé de cancer de la peau en cas d'exposition aux rayons du soleil.",
+      "Le mécanisme BER ne fonctionne pas et les mutations induites par les rayons UV ne peuvent donc pas être réparées correctement.",
+      "Le mécanisme MMR ne fonctionne pas et les mutations induites par les rayons UV ne peuvent donc pas être réparées correctement.",
+      "Les rayons UV induisent des cassures double brin, qui ne peuvent pas être correctement réparées par le mécanisme de réparation NHEJ."
+    ],
+    "correct": [0, 1],
+    "explanation": "Xeroderma pigmentosum est due à un malfonctionnement du mécanisme NER. Les dimères de pyrimidines causés par les rayons UV ne peuvent donc pas être réparés correctement, ce qui augment le risque de mutations et de cancers (principalement de la peau)."
+  },
+  {
+    "id": "C059",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans quel mécanisme de réparation de l'ADN intervient l'ADN glycosylase ?",
+    "options": [
+      "Réparation par excision de base (BER)",
+      "Réparation par excision de nucléotides (NER)",
+      "Mismatch repair (MMR)",
+      "Jonction d'extrémités non-homologues (NHEJ)",
+      "Recombinaison homologue (HR)"
+    ],
+    "correct": [0],
+    "explanation": "L'ADN glycosylase est la première enzyme impliquée dans la réparation par excision de base (BER). En cas de désamination, par exemple, son rôle est d'enlever la base modifiée."
+  },
+  {
+    "id": "C060",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Dans quel(s) mécanisme(s) de réparation de l'ADN intervient l'ADN ligase ?",
+    "options": [
+      "Réparation par excision de base (BER)",
+      "Réparation par excision de nucléotides (NER)",
+      "Mismatch repair (MMR)",
+      "Jonction d'extrémités non-homologues (NHEJ)",
+      "Recombinaison homologue (HR)"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "L'ADN ligase est impliquée dans tous les mécanismes de réparation de l'ADN. Elle intervient généralement en dernier, pour suturer les fragments d'ADN."
+  },
+  {
+    "id": "C061",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Lors de quelles phases du cycle cellulaire une cellule privilégie-t-elle la recombinaison homologue pour réparer les cassures double brin ?",
+    "options": [
+      "S",
+      "G2",
+      "G0",
+      "G1",
+      "Anaphase"
+    ],
+    "correct": [0, 1],
+    "explanation": "La recombinaison homologue (HR) nécessite généralement une chromatide soeur, qui n'est disponible qu'en phases S et G2."
+  },
+  {
+    "id": "C062",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel mécanisme \"quick and dirty\" de réparation de l'ADN permet de réparer les cassures double brin de l'ADN et résulte généralement en la perte d'une courte séquence d'ADN ?",
+    "options": [
+      "Jonction d'extrémités non-homologues (NHEJ)",
+      "Recombinaison homologue (HR)",
+      "Réparation par excision de base (BER)",
+      "Réparation par excision de nucléotides (NER)",
+      "Mismatch repair (MMR)"
+    ],
+    "correct": [0],
+    "explanation": "Les deux mécanismes de réparation des cassures double brin sont la jonction d'extrémités non-homologues (NHEJ), qui ne nécessite pas de template intact mais résulte généralement en la perte d'nue courte séquence d'ADN, et la recombinaison homologue (HR), qui nécessite un template intact mais répare les cassures avec une haute fidélité."
+  },
+  {
+    "id": "C063",
+    "section": "molecular",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel mécanisme de réparation de l'ADN est aussi utilisé pour favoriser les crossing-over (enjambements) lors de la méiose I ?",
+    "options": [
+      "Recombinaison homologue (HR)",
+      "Jonction d'extrémités non-homologues (NHEJ)",
+      "Réparation par excision de base (BER)",
+      "Réparation par excision de nucléotides (NER)",
+      "Mismatch repair (MMR)"
+    ],
+    "correct": [0],
+    "hint": "Les crossing-over (enjambements) permettent l'échange de matériel génétique entre chromosomes homologues.",
+    "explanation": "Les crossing-over (enjambements) utilisent le mécanisme de recombinaison homologue (HR) pour favoriser l'échange de matériel génétique entre chromosomes homologues."
+  },
+  {
+    "id": "C064",
+    "section": "molecular",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "BRCA1 et BRCA2 font partie d'une voie de signalisation impliquée dans la réparation des dommages à l'ADN. Quelles affirmations sont correctes ?",
+    "options": [
+      "Les protéines ATM/ATR agissent comme des senseurs qui détectent les cassures double brin et les blocages de l'ADN polymérase.",
+      "BRCA1 inhibe la jonction d'extrémités non-homologues (NHEJ) et favorise la recombinaison homologue (HR).",
+      "Si BRCA1 ne fonctionne pas correctement, des mutations s'accumulent et augmentent le risque de développer un cancer.",
+      "BRCA1 et BRCA2 sont des suppresseurs de tumeurs.",
+      "L'activation de BRCA1 contribue à l'arrêt du cycle cellulaire.",
+      "En cas de détection d'un dommage à l'ADN, ATM/ATR déphosphorylent BRCA1.",
+      "En cas de détection d'un dommage à l'ADN, ATM/ATR phosphorylent BRCA2."
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": [
+      "Si elles détectent des dommages à l'ADN, ATM/ATR activent BRCA1 par phosphorylation.",
+      "La recombinaison homologue (HR) est plus fidèle que la jonction d'extrémités non-homologues (NHEJ) pour réparer les cassures double brin.",
+      "L'accumulation de mutations est due à l'absence de recombinaison homologue (HR) pour réparer les dommages à l'ADN.",
+      "Environ 2 / 1000 femmes sont porteuses de mutations dans BRCA1 ou BRCA2 et ont donc un risque accru de cancer, principalement du sein ou des ovaires.",
+      "Cela permet à la cellule de réparer les dommages à l'ADN.",
+      "ATM/ATR sont des kinases : elles phosphorylent BRCA1 en cas de détection d'un dommage à l'ADN.",
+      "ATM/ATR phosphorylent BRCA1, pas BRCA2."
+    ]
   }
 ]
