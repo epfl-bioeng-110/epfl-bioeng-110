@@ -3049,7 +3049,7 @@
             document.getElementById('summary-score').textContent = totalScoreAnswered.toFixed(2);
             const pctEl = document.getElementById('summary-percent');
 
-            if (unansweredCount > 0) {
+            if (unansweredCount > 0 && quizConfig.order === 'random') {
                 // Show dual score panel
                 document.getElementById('summary-dual-score').classList.remove('hidden');
                 document.getElementById('dual-score-answered').textContent = `${pctAnswered}%`;
