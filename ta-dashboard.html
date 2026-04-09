@@ -845,13 +845,24 @@ function renderRings(){
     {val:Math.round(avgSc*100),lbl:'Score moyen',col:'var(--accent)',unit:'%'},
     {val:cov,lbl:'Couverture',col:'var(--blue)',unit:'%'}
   ].map(({val,lbl,col,unit})=>{
-    const r=36,c=2*Math.PI*r,dash=val>=100?c+1:c*(val/100);
-    const linecap=val>=100?'butt':'round';
+    const r=36,c=2*Math.PI*r,dash=c*(val/100);
+    // Compute start and end points of the arc for manual rounded caps
+    // Arc starts at top (−90°) and goes clockwise by val/100 of full circle
+    const startAngle = -Math.PI/2;
+    const endAngle   = startAngle + (val/100)*2*Math.PI;
+    const sx = 45 + r*Math.cos(startAngle), sy = 45 + r*Math.sin(startAngle);
+    const ex = 45 + r*Math.cos(endAngle),   ey = 45 + r*Math.sin(endAngle);
+    const showCaps = val > 0 && val < 100;
+    const caps = showCaps
+      ? `<circle cx="${sx.toFixed(2)}" cy="${sy.toFixed(2)}" r="3.5" fill="${col}"/>
+         <circle cx="${ex.toFixed(2)}" cy="${ey.toFixed(2)}" r="3.5" fill="${col}"/>`
+      : (val >= 100 ? '' : '');
     return `<div class="ring-wrap">
       <svg width="90" height="90" viewBox="0 0 90 90">
         <circle cx="45" cy="45" r="${r}" fill="none" stroke="var(--bg3)" stroke-width="7"/>
         <circle cx="45" cy="45" r="${r}" fill="none" stroke="${col}" stroke-width="7"
-          stroke-dasharray="${dash} ${c+2}" stroke-dashoffset="${c/4}" stroke-linecap="${linecap}"/>
+          stroke-dasharray="${val>=100?c+1:dash} ${c+2}" stroke-dashoffset="${c/4}" stroke-linecap="butt"/>
+        ${caps}
         <text x="45" y="49" text-anchor="middle" font-size="14" font-weight="700"
           font-family="Playfair Display" fill="${col}">${val}${unit}</text>
       </svg>
