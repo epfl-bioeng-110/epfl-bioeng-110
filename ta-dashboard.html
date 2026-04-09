@@ -535,23 +535,6 @@ td.clk:hover{color:var(--accent);}
           <div id="weekday-bars"></div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-hd">
-          <div class="card-title">🗓️ Carte d'activité — 12 dernières semaines</div>
-          <div style="display:flex;align-items:center;gap:.4rem;font-size:.75rem;color:var(--text2);">
-            Moins
-            <span style="display:flex;gap:2px;">
-              <span style="width:11px;height:11px;border-radius:2px;background:var(--bg3);"></span>
-              <span style="width:11px;height:11px;border-radius:2px;background:rgba(251,191,36,.2);"></span>
-              <span style="width:11px;height:11px;border-radius:2px;background:rgba(251,191,36,.45);"></span>
-              <span style="width:11px;height:11px;border-radius:2px;background:rgba(251,191,36,.7);"></span>
-              <span style="width:11px;height:11px;border-radius:2px;background:var(--accent);"></span>
-            </span>
-            Plus
-          </div>
-        </div>
-        <div id="heatmap-wrap" style="overflow-x:auto;"></div>
-      </div>
     </div>
 
     <!-- ══════ TAB: SESSIONS ══════ -->
@@ -1193,7 +1176,7 @@ function renderActivity(){
     <div class="stat-mini"><div class="stat-mini-val">${allSessInP}</div><div class="stat-mini-lbl">sessions</div></div>
     <div class="stat-mini"><div class="stat-mini-val">${peak[1]}</div><div class="stat-mini-lbl">pic · ${peak[0]}</div></div>
     <div class="stat-mini"><div class="stat-mini-val">${activeDays>0?(totP/activeDays).toFixed(1):'—'}</div><div class="stat-mini-lbl">moy./jour actif</div></div>`;
-  renderHourly(); renderWeekday(); renderHeatmap();
+  renderHourly(); renderWeekday();
 }
 
 function renderHourly(){
@@ -1232,49 +1215,6 @@ function renderWeekday(){
       <div style="width:3.5rem;font-size:.78rem;color:var(--text2);">${wds[i].toLocaleString()}</div>
     </div>`;
   }).join('');
-}
-
-function renderHeatmap(){
-  const weeks=12,cellW=14,cellH=14,gap=3,labelW=22;
-  const dayData={};
-  filteredAnswers().forEach(a=>{if(!a.timestamp)return;const d=a.timestamp.split('T')[0];dayData[d]=(dayData[d]||0)+1;});
-  const maxDay=Math.max(...Object.values(dayData),1);
-  const now=new Date();now.setHours(0,0,0,0);
-  const startDate=new Date(now);startDate.setDate(startDate.getDate()-(weeks*7-1+now.getDay()));
-  const cols=[];
-  let cur=new Date(startDate);
-  while(cur<=now){
-    const key=cur.toISOString().split('T')[0];
-    const wIdx=Math.floor((cur-startDate)/86400000/7);
-    if(!cols[wIdx]) cols[wIdx]=[];
-    const cnt=dayData[key]||0;
-    cols[wIdx][cur.getDay()]={key,cnt,opacity:cnt===0?0:Math.max(.15,cnt/maxDay)};
-    cur=new Date(cur);cur.setDate(cur.getDate()+1);
-  }
-  const dayNames=['D','L','M','M','J','V','S'];
-  const W=labelW+weeks*(cellW+gap),H=7*(cellH+gap)+20;
-  let cells='',xlabels='';let lastMonth=-1;
-  for(let w=0;w<cols.length;w++){
-    const col=cols[w]; if(!col) continue;
-    for(let d=0;d<7;d++){
-      const cell=col[d]; if(!cell) continue;
-      const x=labelW+w*(cellW+gap),y=20+d*(cellH+gap);
-      cells+=`<rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="3"
-        fill="${cell.cnt>0?`rgba(251,191,36,${cell.opacity})`:'var(--bg3)'}"
-        onmouseenter="tip(event,'${cell.key} : ${cell.cnt} réponse${cell.cnt!==1?'s':''}')" onmouseleave="hideTip()"/>`;
-    }
-    const fc=col.find(c=>c);
-    if(fc){const m=new Date(fc.key).getMonth();
-      if(m!==lastMonth){
-        const mn=['Jan','Fév','Mar','Avr','Mai','Jui','Jul','Aoû','Sep','Oct','Nov','Déc'];
-        xlabels+=`<text x="${labelW+w*(cellW+gap)}" y="12" font-size="9" fill="var(--text2)">${mn[m]}</text>`;
-        lastMonth=m;
-      }
-    }
-  }
-  const dayLbls=dayNames.map((n,i)=>`<text x="${labelW-4}" y="${20+i*(cellH+gap)+cellH/2+4}" text-anchor="end" font-size="9" fill="var(--text3)">${n}</text>`).join('');
-  $('heatmap-wrap').innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:max(100%,${W}px);display:block;" xmlns="http://www.w3.org/2000/svg">
-    ${xlabels}${dayLbls}${cells}</svg>`;
 }
 
 // ── Sessions ───────────────────────────────────────────────
