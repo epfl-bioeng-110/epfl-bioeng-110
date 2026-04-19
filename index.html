@@ -3398,7 +3398,7 @@
                 const contentDiv = document.createElement('div');
                 contentDiv.style.flex = '1';
                 contentDiv.style.cursor = 'pointer';
-                contentDiv.onclick = () => showQuestionModal(question, lastAnswer, true);
+                contentDiv.onclick = () => showQuestionModal(question, lastAnswer, false);
                 const secLabels = { biomolecules: 'Biomolécules', genetics: 'Génétique', molecular: 'Biologie moléculaire', cellcycle: 'Cycle cellulaire' };
                 contentDiv.innerHTML = `
                     <strong>${question.id}</strong> · ${secLabels[question.section] || question.section} · Niveau ${question.level}<br>
@@ -3570,8 +3570,16 @@
             question.options.forEach((opt, idx) => {
                 const letter = String.fromCharCode(65 + idx);
                 const isCorrect = question.correct.includes(idx);
-                const style = isCorrect ? 'color: var(--success); font-weight: 700;' : '';
-                content += `<div style="margin-bottom: 0.5rem; ${style}">${letter}. ${opt}</div>`;
+                const borderColor = isCorrect ? 'var(--success)' : 'var(--border)';
+                const bg = isCorrect ? 'rgba(16,185,129,0.06)' : 'transparent';
+                const letterColor = isCorrect ? 'var(--success)' : 'var(--text-secondary)';
+                const perExp = Array.isArray(question.explanation) && question.explanation[idx]
+                    ? `<div style="margin-top:0.3rem;font-size:0.8rem;color:var(--text-secondary);font-style:italic;">${question.explanation[idx]}</div>` : '';
+                content += `<div style="display:flex;gap:0.6rem;align-items:flex-start;padding:0.6rem 0.75rem;border-radius:9px;border:1px solid ${borderColor};background:${bg};margin-bottom:0.4rem;">
+                    <span style="flex-shrink:0;font-weight:700;width:1.4rem;color:${letterColor};">${letter}.</span>
+                    <div style="flex:1;"><span style="font-size:0.88rem;">${opt}</span>${perExp}</div>
+                    <span style="flex-shrink:0;">${isCorrect ? '✅' : ''}</span>
+                </div>`;
             });
             content += '</div>';
             
@@ -3588,8 +3596,8 @@
             }
 
             if (!hideExplanation) {
-                const explanation = Array.isArray(question.explanation) ? question.explanation.join('<br>') : question.explanation;
-                content += `<div class="explanation" style="margin-top: 1rem;"><strong>Explication :</strong><br>${explanation}</div>`;
+                const expStr = !Array.isArray(question.explanation) && question.explanation && question.explanation !== 'Aucune explication disponible' ? question.explanation : null;
+                if (expStr) content += `<div class="explanation" style="margin-top: 1rem;"><strong>Explication :</strong><br>${expStr}</div>`;
             }
             
             document.getElementById('modal-question-content').innerHTML = content;
