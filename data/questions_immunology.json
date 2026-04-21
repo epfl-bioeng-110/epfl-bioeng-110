@@ -1,0 +1,520 @@
+[
+  {
+    "id": "F001",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Les enzymes de restriction sont un outil important en biologie moléculaire. Quelles affirmations sont correctes ?",
+    "options": [
+      "Les enzymes de restriction protègent les bactéries d'invasions virales en clivant l'ADN viral.",
+      "Le site spécifique (site de restriction) reconnu par une enzyme de restriction est modifié chimiquement dans l'ADN de l'hôte par des méthylations, évitant ainsi que l'ADN de l'hôte soit reconnu et clivé.",
+      "Les enzymes de restriction agissent en hydrolysant la liaison phosphodiester de l'ADN pathogène.",
+      "Les enzymes de restriction protègent les virus d'invasions bactériennes en clivant l'ADN bactérien.",
+      "Le site spécifique (site de restriction) reconnu par une enzyme de restriction n'est pas présent dans l'ADN de l'hôte, évitant ainsi que l'ADN de l'hôte soit reconnu et clivé."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": ""
+  },
+  {
+    "id": "F002",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Les affirmations suivantes concernent les enzymes de restriction et autres techniques de biologie moléculaire et biotechnologie. Lesquelles sont fausses ?",
+    "options": [
+      "Le site de coupure d'une enzyme de restriction de type I est contenu dans le site de reconnaissance de l'enzyme.",
+      "Le site de coupure d'une enzyme de restriction de type III est contenu dans le site de reconnaissance de l'enzyme.",
+      "Le site de coupure d'une enzyme de restriction de type II est contenu dans le site de reconnaissance de l'enzyme.",
+      "L'ADN peut être rendu fluorescent et visualisé lors d'une électrophorèse sur gel d'agarose grâce au phénomène d'intercalation du bromure d'éthidium.",
+      "Les enzymes de restriction peuvent être utilisées comme outils pour créer des organismes génétiquement modifiés."
+    ],
+    "correct": [0, 1],
+    "explanation": "Le site de coupure d'une enzyme de restriction de type II, p. ex. EcoRI, est contenu dans le site de reconnaissance de l'enzyme."
+  },
+  {
+    "id": "F003",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Les étapes suivantes décrivent le système CRISPR-Cas, qui permet à certaines bactéries et archées de se défendre contre l'invasion de pathogènes déjà rencontrés. Quelle étape intervient en dernier ?",
+    "options": [
+      "Interférence",
+      "Entrée de l'ADN d'un virus inconnu dans la cellule hôte",
+      "Prélèvement d'un fragment d'ADN du pathogène",
+      "Expression du locus CRISPR",
+      "Association de molécules matures d'ARN CRISPR avec des protéines Cas"
+    ],
+    "correct": [0],
+    "explanation": "L'interférence permet de reconnaître l'ADN du pathogène en cas de nouvelle infection par le même pathogène. Un complexe CRISPR-Cas reconnaît l'ADN du pathogène grâce à un ARN CRISPR et les protéines Cas coupent cet ADN."
+  },
+  {
+    "id": "F004",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Parmi les applications suivantes, laquelle n'est pas réalisable avec le système CRISPR-Cas (naturel ou modifié) ?",
+    "options": [
+      "Insertion d'une mutation sur un seul des deux brins d'ADN d'un génome.",
+      "Insertion d'un transgène dans un génome hôte.",
+      "Modifications épigénétiques d'une région d'un génome.",
+      "Activation de la transcription d'un gène dans un génome.",
+      "Répression de la transcription d'un gène dans un génome."
+    ],
+    "correct": [0],
+    "hint": "Un complexe CRISPR-Cas crée généralement une cassure double brin, mais peut être modifié pour ne pas couper l'ADN.",
+    "explanation": [
+      "Le système CRISPR-Cas coupe les deux brins d'ADN et ne peut pas être utilisé pour introduire une mutation sur un seul brin (mais uniquement sur les deux).",
+      "Il s'agit de la principale application du système CRISPR-Cas.",
+      "La protéine Cas9 peut être inactivée et fusionnée à une enzyme dont le rôle est de modifier épigénétiquement l'ADN.",
+      "La protéine Cas9 peut être inactivée et fusionnée à un activateur de la transcription.",
+      "La protéine Cas9 peut être inactivée et fusionnée à un répresseur de la transcription."
+    ]
+  },
+  {
+    "id": "F005",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle définition correspond le mieux à l'immunité ?",
+    "options": [
+      "La résistance à une maladie, en particulier aux maladies infectieuses.",
+      "L'ensemble des cellules qui permettent une résistance aux infections.",
+      "L'ensemble des processes qui permettent une résistance aux infections.",
+      "L'ensemble des cellules et des processus qui permettent une résistance aux infections.",
+      "L'ensemble des agents pathogènes qui peuvent infecter l'humain."
+    ],
+    "correct": [0],
+    "explanation": "L'immunité correspond à la résistance aux maladies infectieuses. L'ensemble des cellules et processus qui permettent une résistance aux infections constitue le système immunitaire."
+  },
+  {
+    "id": "F006",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les rôles du système immunitaire ?",
+    "options": [
+      "Défense contre les infections",
+      "Reconnaître et répondre aux greffes de tissus",
+      "Défense contre les tumeurs",
+      "Reconnaître les corps étrangers",
+      "Activer le système nerveux en cas d'allergie"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Le système immunitaire permet notamment de reconnaître les corps étrangers, ce qui permet de se défendre contre les infections et de reconnaître et répondre aux greffes de tissus. Le système immunitaire permet aussi de se défendre contre les tumeurs."
+  },
+  {
+    "id": "F007",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles sont les trois lignes de défense du corps humain ?",
+    "options": [
+      "Barrières épithéliales",
+      "Immunité innée",
+      "Immunité adaptative",
+      "Immunité acquise",
+      "Système CRISPR-Cas",
+      "Enzymes de restriction"
+    ],
+    "correct": [0, 1, 2, 3],
+    "hint": "Deux options sont spécifiques aux procaryotes. Deux autres options décrivent la même chose.",
+    "explanation": "Les barrières épithéliales interviennent généralement en premier. L'immunité innée est ensuite activée, puis l'immunité adaptative (aussi appelée immunité acquise)."
+  },
+  {
+    "id": "F008",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les rôles suivants, lesquels sont assurés par les barrières physico-chimiques du corps humain ?",
+    "options": [
+      "Piéger la saleté et les microbes",
+      "Protéger les épithelia contre les bactéries nocives",
+      "Tuer les bactéries nocives grâce à un faible pH",
+      "Éliminer les particules inhalées",
+      "Activer le système immunitaire adaptatif"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": [
+      "Il s'agit d'un rôle des muqueuses.",
+      "Il s'agit d'un rôle des muqueuses.",
+      "Il s'agit d'un rôle de l'estomac.",
+      "Il s'agit d'un rôle des cils.",
+      "Il s'agit d'un rôle du système immunitaire inné, pas des barrières physico-chimiques."
+    ]
+  },
+  {
+    "id": "F009",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Certaines cellules de l'intestin grêle produisent des défensines (petits peptides antimicrobiens). Lesquelles ?",
+    "options": [
+      "Cellules de Paneth",
+      "Cellules en goblet",
+      "Entérocytes",
+      "Cellules adipeuses"
+    ],
+    "correct": [0],
+    "explanation": "Les défensines sont produites par les cellules de Paneth, situées au fond des cryptes de l'intestin grêle."
+  },
+  {
+    "id": "F010",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Quelles cellules descendent des cellules progénitrices de la lignée myéloïde (angl. : common myeloid progenitor cells) ?",
+    "options": [
+      "Cellules dendritiques",
+      "Macrophages",
+      "Monocytes",
+      "Mastocytes",
+      "Basophiles",
+      "Lymphocytes B",
+      "Cellules NK"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "Les cellules NK et les lymphocytes B descendent des cellules progénitrices de la lignée lymphoïde."
+  },
+  {
+    "id": "F011",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Vrai ou faux : Les érythrocytes descendent des cellules progénitrices de la lignée myéloïde (angl. : common myeloid progenitor cells).",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [0],
+    "explanation": "Les érythrocytes descendent des érythroblastes, qui descendent des cellules progénitrices de la lignée myéloïde."
+  },
+  {
+    "id": "F012",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle est la différence entre les monocytes et les macrophages ?",
+    "options": [
+      "Les monocytes sont en circulation dans le sang, tandis que les macrophages sont présents dans les tissus.",
+      "Aucune",
+      "Les macrophages sont en circulation dans le sang, tandis que les monocytes sont présents dans les tissus.",
+      "Les macrophages sont en circulation dans le sang, tandis que les monocytes sont présents dans les ganglions lymphatiques.",
+      "Les monocytes sont en circulation dans le sang, tandis que les macrophages sont présents dans les ganglions lymphatiques."
+    ],
+    "correct": [0],
+    "explanation": "Les monocytes sont en circulation dans le sang et sont les précurseurs des macrophages, qui sont situés dans les tissus."
+  },
+  {
+    "id": "F013",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle est la forme du noyau des monocytes ?",
+    "options": [
+      "Fer à cheval",
+      "Multilobé",
+      "Circulaire",
+      "Sphérique",
+      "Rectangulaire"
+    ],
+    "correct": [0],
+    "explanation": "Les neutrophiles ont un noyau multilobé, tandis que les monocytes ont un noyau en forme de fer à cheval."
+  },
+  {
+    "id": "F014",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelles cellules sont capables d'expulser leur chromatine pour piéger les bactéries dans une toile collante ?",
+    "options": [
+      "Neutrophiles",
+      "Mastocytes",
+      "Éosinophiles",
+      "Monocytes",
+      "Macrophages"
+    ],
+    "correct": [0],
+    "explanation": "Il s'agit d'une forme de \"suicide\" cellulaire qui permet de capturer certaines bactéries dans une toile collante."
+  },
+  {
+    "id": "F015",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quelle cellule est représentée sur l'image ci-contre ?",
+    "image": "f015_cell.jpg",
+    "options": [
+      "Mastocyte",
+      "Monocyte",
+      "Macrophage",
+      "Éosinophile",
+      "Érythrocyte"
+    ],
+    "correct": [0],
+    "hint": "Les petits cercles sont des granules d'histamine.",
+    "explanation": "On reconnait notamment les mastocytes à leur granules d'histamine."
+  },
+  {
+    "id": "F016",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelles cellules sont principalement responsables de la formation d'allergies ?",
+    "options": [
+      "Basophiles et mastocytes",
+      "Monocytes et macrophages",
+      "Éosinophiles et basophiles",
+      "Neutrophiles et macrophages",
+      "Monocytes et mastocytes"
+    ],
+    "correct": [0],
+    "explanation": "Ces cellules contiennent des granules d'histamine."
+  },
+  {
+    "id": "F017",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelles immunoglobulines sont impliquées dans le déclenchement des réactions allergiques ?",
+    "options": [
+      "IgE",
+      "IgA",
+      "IgD",
+      "IgE",
+      "IgG"
+    ],
+    "correct": [0],
+    "explanation": "Il s'agit des IgE, qui déclenchent la libération de médiateurs des mastocytes et basophiles, p. ex. l'histamine."
+  },
+  {
+    "id": "F018",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles affirmations concernant l'immunité innée sont correctes ?",
+    "options": [
+      "L'immunité innée est le mécanisme de défense observé chez les invertébrés.",
+      "L'immunité innée met en jeu des cellules produites par la moelle osseuse.",
+      "L'immunité innée met en jeu des cellules produites par le thymus.",
+      "L'immunité innée n'affecte pas la réponse immunitaire adaptative."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Contrairement à l'immunité adaptative, qui est unique aux vertébrés.",
+      "Les cellules immunitaires sont produites dans la moelle osseuse.",
+      "L'immunité innée met en jeu des cellules produites par la moelle osseuse. L'immunité adaptative met en jeu des cellules produites par la moelle osseuse (lymphocytes B) et le thymus (lymphocytes T).",
+      "La réponse immunitaire innée affecte la réponse immunitaire adaptative, p. ex. son activation."
+    ]
+  },
+  {
+    "id": "F019",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Sur l'image ci-contre, une cellule NK reconnaît et cible une cellule cancéreuse car elle n'exprime pas de ___.",
+    "image": "f019_nk_cell.png",
+    "options": [
+      "Complexe majeur d'histocompatibilité I (CMH I)",
+      "Récepteur couplé à une protéine G (GPCR)",
+      "Ligand activateur",
+      "Récepteur inhibiteur",
+      "Récepteur activateur"
+    ],
+    "correct": [0],
+    "explanation": [
+      "En tant normal, la liaison du CMH I de la cellule cible au récepteur inhibiteur de la cellule NK inhibe l'activation de la cellule NK.",
+      "Les GPCRs sont impliqués dans la communication cellulaire de nombreuses cellules cancéreuses, mais ne forment pas de liaison directe avec un récepteur des cellules NK lors de l'interaction physique entre une cellule tumorale et une cellule NK.",
+      "Le ligand activateur est la molécule verte à la surface de la cellule cancéreuse, qui active la cellule NK.",
+      "Le récepteur inhibiteur est la molécule rouge à la surface de la cellule NK. En temps normal, la liaison du CMH I de la cellule cible au récepteur inhibiteur de la cellule NK inhibe l'activation de la cellule NK.",
+      "Le récepteur activateur est la molécule verte à la surface de la cellule NK, qui l'active."
+    ]
+  },
+  {
+    "id": "F020",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les 3 rôles principaux du système du complément ?",
+    "options": [
+      "Opsonisation",
+      "Lyse",
+      "Chimiotaxie",
+      "Phagocytose",
+      "Production d'anticorps"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Certains fragments recouvrent la membrane des pathogènes pour favoriser leur phagocytose.",
+      "Le système du complément peut former des pores dans la membrane des pathogènes.",
+      "Le système du complément libère des fragments qui attirent des cellules du système immunitaire.",
+      "La chimiotaxie et l'opsonisation favorisent le recrutement de phagocytes et la phagocytose, mais le système du complément n'est pas directement responsable de la phagocytose.",
+      "Les anticorps sont produits par les lymphocytes B. Le système du complément n'est pas responsable de la production d'anticorps."
+    ]
+  },
+  {
+    "id": "F021",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Le système du complément peut être activé par 3 voies : la voie classique, la voie alterne et la voie des lectines. Toutes ces voies convergent vers un processus central : lequel ?",
+    "options": [
+      "Clivage de la protéine C3",
+      "Clivage de la protéine C5b",
+      "Chimiotaxie",
+      "Clivage protéolytique du complexe C4/C5",
+      "Formation d'un pore dans la membrane bactérienne"
+    ],
+    "correct": [0],
+    "explanation": "Les 3 voies d'activation du système du complément convergent vers le clivage de la protéine C3."
+  },
+  {
+    "id": "F022",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles cellules du système immunitaire inné expriment des récepteurs de type toll (toll-like receptors, TLRs) à leur surface ?",
+    "options": [
+      "Macrophages",
+      "Cellules dendritiques",
+      "Neutrophiles",
+      "Cellules NK"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Les TLRs reconnaissent des motifs moléculaires associés aux pathogènes (PAMPs)."
+  },
+  {
+    "id": "F023",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel événement mène à l'activation de la voie cGAS-STING ?",
+    "options": [
+      "Détection d'ADN double brin dans le cytoplasme",
+      "Détection d'ADN simple brin dans le cytoplasme",
+      "Détection d'ARN double brin dans le cytoplasme",
+      "Détection d'ARN simple brin dans le cytoplasme",
+      "Détection de protéines virales dans le cytoplasme"
+    ],
+    "correct": [0],
+    "hint": "La voie cGAS-STING reconnaît un élément qui n'est pas censé se situer dans le cytoplasme.",
+    "explanation": "Dans les cellules eucaryotes, l'ADN est situé dans le noyau. La présence d'ADN double brin dans le cytoplasme indique généralement une infection. Les autres signaux (ADN simple brin, ARN étranger) peuvent être détectés par d'autres voies."
+  },
+  {
+    "id": "F024",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La voie cGAS-STING est une voie importante de l'immunité innée. Quelle molécule est produite par l'enzyme cGAS ?",
+    "options": [
+      "cGAMP",
+      "STING",
+      "cGMP",
+      "cAMP",
+      "ATP"
+    ],
+    "correct": [0],
+    "explanation": "L'enzyme cGAS produit du cGAMP en réponse à la détection d'ADN double brin dans le cytoplasme."
+  },
+  {
+    "id": "F025",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les événements suivants, lesquels interviennent dans la voie cGAS-STING ?",
+    "options": [
+      "Liaison de STING à cGAMP et oligomérisation de STING",
+      "Dimérisation et autophosphorylation de TBK",
+      "Liaison d'IRF3 à STING",
+      "Phosphorylation de STING",
+      "Translocation de STING du réticulum endoplasmique à l'appareil de Golgi",
+      "Détection d'ADN simple brin dans le cytoplasme",
+      "Détection d'ADN double brin dans le noyau",
+      "Translocation de STING dans le noyau et régulation de l'expression des gènes",
+      "Liaison de TBK à cGAMP et oligomérisation de TBK"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "La voie cGAS-STING commence par la détection d'ADN double brin dans le cytoplasme, suite à quoi l'enzyme cGAS produit du cGAMP. STING se lie ensuite à cGAMP, s'oligomérise et se transloque du réticulum endoplasmique à l'appareil de Golgi. TBK se lie alors à STING, se dimérise et s'autophosphoryle. STING est ensuite phosphorylé, suite à quoi IRF3 se lie à STING. IRF3 est alors phosphorylé et se dimérise, suite à quoi IRF3 se transloque de l'appareil de Golgi au noyau et régule l'expression de gènes impliqués dans la réponse à l'infection."
+  },
+  {
+    "id": "F026",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels modes de régulation sont observés dans la voie cGAS-STING ?",
+    "options": [
+      "Phosphorylation",
+      "Dimérisation",
+      "Oligomérisation",
+      "Relocalisation de protéines",
+      "Utilisation d'un second messager"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": [
+      "STING, TBK et IRF3 sont phosphorylés lors de la voie cGAS-STING.",
+      "IRF3 (facteur de transcription) se dimérise pour réguler l'expression des gènes.",
+      "STING s'oligomérise suite à sa liaison à cGAMP.",
+      "STING passe du réticulum endoplasmique à l'appareil de Golgi, et IRF3 de l'appareil de Golgi au noyau.",
+      "L'enzyme cGAS produit un second messager (cGAMP)."
+    ]
+  },
+  {
+    "id": "F027",
+    "section": "immunology",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Qu'est-ce qu'une cytokine ?",
+    "options": [
+      "Une molécule de signalisation qui agit sur le système immunitaire.",
+      "Un récepteur transmembranaire qui permet de reconnaître des motifs moléculaires associés aux pathogènes (PAMPs).",
+      "Une cellule qui produit des chimiokines.",
+      "Un récepteur cytosolique qui permet la détection d'ADN double brin dans le cytosol.",
+      "Une molécule qui permet la dilatation des vaisseaux lors d'une réaction inflammatoire."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Les cytokines sont des molécules de signalisation qui régulent de nombreux processus immunitaires, p. ex. inflammation, réponse immunitaire, etc.",
+      "Ces récepteurs sont des PRRs (pattern recognition receptors), dont font notamment partie les TLRs (toll-like receptors).",
+      "Les chimiokines sont des cytokines impliquées dans les processus de chimiotaxie.",
+      "L'enzyme cGAS (de la voie cGAS-STING) est un récepteur cytosolique qui permet la détection d'ADN double brin dans le cytosol.",
+      "Il s'agit d'un vasodilatateur. Certaines cytokines peuvent agir comme vasodilatateurs, mais pas toutes. De manière générale, une cytokine est une molécule de signalisation qui agit sur le système immunitaire."
+    ]
+  },
+  {
+    "id": "F028",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les 3 principaux types de cellules dendritiques ?",
+    "options": [
+      "Cellules dendritiques classiques",
+      "Cellules de Langerhans",
+      "Cellules dendritiques folliculaires",
+      "Cellules dendritiques mastocytaires",
+      "Cellules γδ (gamma delta)"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "Elles transforment et présentent des antigènes étrangers aux cellules T.",
+      "Elles sont des cellules dendritiques présentatrices d'antigène qui résident dans la peau.",
+      "Elles présentent passivement des antigènes étrangers sous forme de complexes immuns aux cellules B dans les follicules lymphoïdes.",
+      "Les cellules dendritiques et les mastocytes sont des cellules différentes.",
+      "Les cellules γδ sont une classe de lymphocytes T."
+    ]
+  },
+  {
+    "id": "F029",
+    "section": "immunology",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes à propos des cellules NK (tueuses naturelles), lesquelles sont correctes ?",
+    "options": [
+      "Les cellules NK font partie du système immunitaire inné.",
+      "Les cellules NK peuvent parfois être dépendantes des anticorps pour exercer leur cytotoxicité.",
+      "Les cellules NK peuvent reconnaître les cellules cancéreuses qui n'expriment pas le CMH I.",
+      "Les cellules NK possèdent un récepteur TCR de type γδ (gamma delta).",
+      "Les cellules NK peuvent uniquement reconnaître les cellules qui présentent un antigène étranger à leur surface."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Les cellules NK sont des lymphocytes du système immunitaire inné qui peuvent notamment tuer les cellules qui n'expriment pas le CMH I, comme certaines cellules cancéreuses ou infectées par des virus."
+  }
+]
