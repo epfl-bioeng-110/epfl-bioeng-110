@@ -1,0 +1,271 @@
+[
+  {
+    "id": "H001",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant le métabolisme est correcte ?",
+    "options": [
+      "Les voies anaboliques nécessitent la consommation d'énergie.",
+      "Une voie métabolique implique plusieurs substrats convertis par une même enzyme.",
+      "La synthèse de nucléotides est une voie catabolique.",
+      "L'humain est autotrophe.",
+      "Les lois de la thermodynamique ne s'appliquent pas au métabolisme."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Les voies anaboliques nécessitent de l'énergie, tandis que les voies cataboliques libèrent de l'énergie.",
+      "Une voie métabolique est une séquence d’étapes au cours desquelles une molécule spécifique est modifiée jusqu’à l’obtention d’un produit. Chaque étape est catalysée par une enzyme spécifique.",
+      "Les réactions de synthèse sont des voies anaboliques, car elles requièrent de l'énergie.",
+      "L'humain est hétérotrophe, car il utilise du carbone organique comme source de carbone.",
+      "Le métabolisme est régi par les lois de la thermodynamique."
+    ]
+  },
+  {
+    "id": "H002",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "En termes de thermodynamique, l'humain est-il un système ouvert ou fermé ?",
+    "options": [
+      "Ouvert",
+      "Fermé"
+    ],
+    "correct": [0],
+    "hint": "Est-ce que le corps humain a des échanges avec l'environnement qui l'entoure ?",
+    "explanation": "L'humain possède des échanges avec l'environnement qui l'entoure."
+  },
+  {
+    "id": "H003",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant la spontanéité d'une réaction, lesquelles sont correctes ?",
+    "options": [
+      "L'énergie libre de Gibbs G est une mesure de l'énergie utilisable pour fournir un travail.",
+      "Si la variation d'énergie libre de Gibbs d'une réaction est négative (ΔG < 0), cela signifie que l'état final du système est plus stable que l'état initial.",
+      "Si la variation d'énergie libre de Gibbs d'une réaction est positive (ΔG > 0), cela signifie que l'état final du système est plus stable que l'état initial.",
+      "La valeur absolue de la variation d'enthalpie |ΔH| au cours d'une réaction permet de déterminer si la réaction est spontanée.",
+      "La valeur absolue de la variation d'énergie libre de Gibbs |ΔG| au cours d'une réaction permet de déterminer si la réaction est spontanée."
+    ],
+    "correct": [0, 1],
+    "explanation": "L'énergie libre de Gibbs G correspond à l'énergie disponible. Une réaction spontanée possède une variation d'énergie libre de Gibbs négative (ΔG < 0)."
+  },
+  {
+    "id": "H004",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "L'adénosine triphosphate (ATP) sert de transporteur d'énergie à l'intérieur des cellules et est souvent appelée la \"monnaie énergétique\" des cellules. Parmi les composants suivants, lequel n'est pas retrouvé dans une molécule d'ATP ?",
+    "options": [
+      "Soufre",
+      "Adénine",
+      "Phosphate",
+      "Ribose",
+      "Pentose"
+    ],
+    "correct": [0],
+    "explanation": "L'ATP est un nucléotide triphosphate, composé de 3 groupes phosphate, d'un pentose (ribose) et d'une base azotée (adénine)."
+  },
+  {
+    "id": "H005",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Parmi les réactions suivantes, lesquelles libèrent de l'énergie ?",
+    "options": [
+      "Hydrolyse de l'ATP en ADP",
+      "Hydrolyse de l'ADP en AMP",
+      "Hydrolyse de l'AMP en adénosine et phosphate",
+      "Hydrolyse du pyrophosphate (PPi) en phosphates"
+    ],
+    "correct": [0, 1, 2, 3],
+    "hint": "Les liaisons impliquant des groupes phosphate sont généralement riches en énergie.",
+    "explanation": "Les liaisons entre groupes phosphate (au sein de l'ATP, de l'ADP ou du pyrophosphate) ou entre le groupe phosphate et le ribose de l'AMP contiennent de l'énergie. C'est en fait le réarrangement des électrons qui permet la libération d'énergie, plutôt que la rupture des liaisons à proprement parler."
+  },
+  {
+    "id": "H006",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel est le rôle général d'une enzyme ?",
+    "options": [
+      "Accélérer une réaction biochimique en abaissant son énergie d'activation",
+      "Réagir avec un substrat pour permettre à une réaction de se dérouler",
+      "Permettre la synthèse de macromolécules, mais pas leur dégradation",
+      "Permettre la dégradation de macromolécules, mais pas leur synthèse",
+      "Permettre la synthèse et la dégradation de macromolécules"
+    ],
+    "correct": [0],
+    "explanation": "Une enzyme accélère une réaction en abaissant son énergie d'activation. Elle n'est pas modifiée au cours de la réaction."
+  },
+  {
+    "id": "H007",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels facteurs peuvent influencer l'activité d'une enzyme ?",
+    "options": [
+      "Température",
+      "pH",
+      "Présence de cofacteurs",
+      "Présence d'inhibiteurs compétitifs",
+      "Présence d'inhibiteurs non compétitifs"
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "L'activité d'une enzyme est largement influencée par les conditions environnementales, p. ex. le pH, la température, la présence de cofacteurs (requis par la plupart des enzymes pour agir correctement), ou la présence d'inhibiteurs (compétitifs, non compétitifs)."
+  },
+  {
+    "id": "H008",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant la régulation des voies métaboliques est fausse ?",
+    "options": [
+      "Un régulateur allostérique se lie au site actif d'une enzyme.",
+      "Un inhibiteur compétitif se lie au site actif d'une enzyme.",
+      "Les membres de la famille des adénosines mono-, di- et triphosphate (AMP, ADP, ATP) peuvent réguler l'activité de certaines enzymes.",
+      "La compartimentation cellulaire joue un rôle important dans la régulation des voies métaboliques.",
+      "Dans le processus de rétroinhibition, le produit de la voie métabolique concernée joue un rôle particulier."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Un régulateur allostérique ne se lie pas au site actif d'une enzyme et n'est donc pas en compétition avec le substrat de l'enzyme. Il régule l'activité de l'enzyme en se liant sur un site allostérique (≠ site actif).",
+      "Un inhibiteur compétitif se lie au site actif d'une enzyme et est en compétition avec le substrat naturel pour s'y lier.",
+      "L'ATP, l'ADP et l'AMP régulent l'activité de certaines enzymes, p. ex. la phosphofructokinase.",
+      "La compartimentation cellulaire permet de réguler certaines voies métaboliques, en séparant physiquement certaines processus métaboliques à l'intérieur de la cellule.",
+      "Dans le processus de rétroinhibition, le produit de la voie métabolique inhibe une enzyme de cette voie et agit ainsi dans le cadre d'une boucle de rétroaction négative."
+    ]
+  },
+  {
+    "id": "H009",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans la réaction décrivant la respiration cellulaire (C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + énergie), quelle molécule joue le rôle d'agent réducteur ?",
+    "options": [
+      "Glucose C₆H₁₂O₆",
+      "Dioxygène O₂",
+      "Dioxyde de carbone CO₂",
+      "Eau H₂O",
+      "La respiration cellulaire n'implique aucun agent réducteur."
+    ],
+    "correct": [0],
+    "explanation": "Le glucose C₆H₁₂O₆ est l'agent réducteur et est oxydé en CO₂, tandis que le dioxygène O₂ est l'agent oxydant et est réduit en H₂O."
+  },
+  {
+    "id": "H010",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant la molécule de nicotinamide adénine dinucléotide, lesquelles sont correctes ?",
+    "options": [
+      "Le couple NAD+/NADH est un transporteur d'électrons utilisé par la cellule.",
+      "La forme oxydée (NAD+) peut être réduite en NADH par l'action des déshydrogénases.",
+      "La forme oxydée (NAD+) peut être réduite en NADH par l'action des kinases.",
+      "Le nicotinamide adénine dinucléotide est une coenzyme dérivée de la vitamine C.",
+      "Le NAD+ est un agent réducteur."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Le couple NAD+/NADH est notamment utilisé comme transporteur d'électrons pendant la respiration cellulaire.",
+      "Les déshydrogénases sont des enzymes qui oxydent un substrat en réduisant un accepteur d'électrons.",
+      "Les kinases sont des enzymes dont le rôle est de phosphoryler des molécules.",
+      "Le nicotinamide adénine dinucléotide est une coenzyme dérivée de la vitamine B3.",
+      "Le NAD+ est un agent oxydant."
+    ]
+  },
+  {
+    "id": "H011",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles étapes font partie de la respiration cellulaire ?",
+    "options": [
+      "Glycolyse",
+      "Cycle de l'acide citrique",
+      "Cycle de Krebs",
+      "Phosphorylation oxydative",
+      "Gluconéogenèse"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "La respiration cellulaire comprend (1) la glycolyse, (2) le cycle de l'acide citrique (ou cycle de Krebs) et (3) la phosphorylation oxydative."
+  },
+  {
+    "id": "H012",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 2,
+    "question": "Quelles affirmations concernant la respiration cellulaire sont correctes ?",
+    "options": [
+      "L'énergie libérée lors des différentes étapes de la respiration cellulaire est principalement utilisée pour synthétiser de l'ATP.",
+      "La respiration cellulaire nécessite des transporteurs d'électrons.",
+      "L'ATP synthétisée pendant la respiration cellulaire provient exclusivement de la phosphorylation oxydative.",
+      "La respiration cellulaire a entièrement lieu dans la mitochondrie.",
+      "Pour chaque molécule de dioxygène O₂ consommée, la respiration cellulaire produit 2 molécules de dioxyde de carbone CO₂."
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Comme dans presque toutes les réactions biochimiques, une partie de l'énergie libérée pendant la respiration cellulaire est perdue sous forme de chaleur. Le reste est utilisé pour synthétiser de l'ATP.",
+      "La respiration cellulaire utilise le NADH et le FADH2 comme transporteurs d'électrons.",
+      "Même si la majorité de l'ATP produit pendant la respiration cellulaire provient de la phosphorylation oxydative, une partie provient de phosphorylations au niveau du substrat pendant la glycolyse et le cycle de Krebs.",
+      "La première étape de la respiration cellulaire (glycolyse) a lieu dans le cytosol.",
+      "Pour chaque molécule de dioxygène O₂ consommée, la respiration cellulaire produit 1 molécule de dioxyde de carbone CO₂."
+    ]
+  },
+  {
+    "id": "H013",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles molécules sont des intermédiaires de la glycolyse ?",
+    "options": [
+      "Fructose-1,6-bisphosphate",
+      "Phosphoénolpyruvate",
+      "Fructose-2,6-bisphosphate",
+      "Hexokinase",
+      "Fructose"
+    ],
+    "correct": [0, 1],
+    "explanation": [
+      "Le fructose-6-phosphate est phosphorylé en fructose-1,6-bisphosphate, qui est ensuite clivé en dihydroxyacétone phosphate et glycéraldéhyde-3-phosphate.",
+      "Le 3-phosphoglycérate est converti en phosphoénolpyruvate (PEP), qui est ensuite déphosphorylé en pyruvate.",
+      "Le fructose-2,6-bisphosphate n'est pas un intermédiaire de la glycolyse, mais agit comme régulateur de la phosphofructokinase (vous verrez ça plus en détails l'année prochaine, en Biological Chemistry II).",
+      "L'hexokinase est l'enzyme qui phosphoryle le glucose en glucose-6-phosphate.",
+      "Le fructose n'est pas un intermédiaire de la glycolyse. En revanche, le fructose 6-phosphate et le fructose-1,6-bisphosphate sont des intermédiaires de la glycolyse."
+    ]
+  },
+  {
+    "id": "H014",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La molécule représentée ci-contre est un intermédiaire de la glycolyse. En quel autre intermédiaire de la glycolyse peut-elle être convertie directement ?",
+    "image": "h014_glycolysis.png",
+    "options": [
+      "Glycéraldéhyde-3-phosphate",
+      "Fructose",
+      "Fructose-6-phosphate",
+      "Succinyl-CoA",
+      "Dihydroxyacétone phosphate"
+    ],
+    "correct": [0],
+    "explanation": "La molécule représentée est le dihydroxyacétone phosphate (DHAP), qui est produit à partir du clivage du fructose-1,6-bisphosphate. Le DHAP sert de substrat à une isomérase, qui le convertit en glycéraldéhyde-3-phosphate."
+  },
+  {
+    "id": "H015",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle enzyme convertit le fructose-6-phosphate en fructose-1,6-bisphosphate lors de la glycolyse ?",
+    "options": [
+      "Phosphofructokinase 1",
+      "Phosphofructokinase 2",
+      "Phosphopentokinase",
+      "Fructokinase",
+      "Hexokinase"
+    ],
+    "correct": [0],
+    "explanation": "La phosphofructokinase 1 (PFK1) convertit le fructose-6-phosphate en fructose-1,6-bisphosphate."
+  }
+]
