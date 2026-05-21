@@ -113,6 +113,7 @@
       "Présence d'inhibiteurs non compétitifs"
     ],
     "correct": [0, 1, 2, 3, 4],
+    "hint": "Les enzymes sont très sensibles aux conditions environnementales.",
     "explanation": "L'activité d'une enzyme est largement influencée par les conditions environnementales, p. ex. le pH, la température, la présence de cofacteurs (requis par la plupart des enzymes pour agir correctement), ou la présence d'inhibiteurs (compétitifs, non compétitifs)."
   },
   {
@@ -151,6 +152,7 @@
       "La respiration cellulaire n'implique aucun agent réducteur."
     ],
     "correct": [0],
+    "hint": "L'agent oxydant est est le dioxygène O₂.",
     "explanation": "Le glucose C₆H₁₂O₆ est l'agent réducteur et est oxydé en CO₂, tandis que le dioxygène O₂ est l'agent oxydant et est réduit en H₂O."
   },
   {
@@ -267,5 +269,451 @@
     ],
     "correct": [0],
     "explanation": "La phosphofructokinase 1 (PFK1) convertit le fructose-6-phosphate en fructose-1,6-bisphosphate."
+  },
+  {
+    "id": "H016",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles molécules ne sont pas des intermédiaires du cycle de Krebs ?",
+    "options": [
+      "β-Cétoglutarate (angl. : β-ketoglutarate)",
+      "Fumaryl-CoA",
+      "α-Cétoglutarate (angl. : α-ketoglutarate)",
+      "Succinyl-CoA",
+      "Malate"
+    ],
+    "correct": [0, 1],
+    "explanation": "Les intermédiaires du cycle de Krebs sont : citrate, isocitrate, α-cétoglutarate, succinyl-CoA, succinate, fumarate, malate et oxaloacétate."
+  },
+  {
+    "id": "H017",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quel intermédiaire du cycle de Krebs est représenté sur l'image ci-contre ?",
+    "image": "h017_krebs.png",
+    "options": [
+      "Malate",
+      "Fumarate",
+      "Fumaryl-CoA",
+      "Succinyl-CoA",
+      "Oxaloacétate"
+    ],
+    "correct": [0],
+    "explanation": "Le malate est converti en oxaloacétate par l'enzyme malate déshydrogénase."
+  },
+  {
+    "id": "H018",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les enzymes suivantes, laquelle réduit le FAD en FADH2 ?",
+    "options": [
+      "Succinate déshydrogénase",
+      "Succinyl-CoA déshydrogénase",
+      "Isocitrate déshydrogénase",
+      "α-Cétoglutarate déshydrogénase",
+      "Fumarase"
+    ],
+    "correct": [0],
+    "explanation": "La succinate déshydrogénase convertit le succinate en fumarate, avec réduction concomitante de FAD en FADH2."
+  },
+  {
+    "id": "H019",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quelle molécule ne fait pas partie de la chaîne de transport d'électrons (CTE) des mitochondries ?",
+    "options": [
+      "Hémoglobine",
+      "Ubiquinone",
+      "Ubiquinol",
+      "NADH déshydrogénase",
+      "Cytochrome c"
+    ],
+    "correct": [0],
+    "explanation": [
+      "L'hémoglobine est une protéine sanguine dont le rôle est de transporter le dioxygène à travers la circulation sanguine. Il ne faut pas confondre l'hémoglobine, qui contient des hèmes, et les hèmes, qui sont des cofacteurs intégrés à de nombreuses protéines. La plupart des protéines de la CTE des mitochondries contiennent des hèmes, qui leur servent à transporter des électrons.",
+      "Le couple ubiquinone/ubiquinol transfère les électrons des complexes I/II au complexe III. L'ubiquinone (ou coenzyme Q) est la forme oxydée, c'est-à-dire n'ayant pas encore reçu d'électrons des complexes I/II. N. B. : Contrairement aux autres membres de la CTE, qui sont des protéines, l'ubiquinone/ubiquinol est un lipide.",
+      "Le couple ubiquinone/ubiquinol transfère les électrons des complexes I/II au complexe III. L'ubiquinol est la forme réduite, c'est-à-dire après avoir reçu des électrons des complexes I/II. N. B. : Contrairement aux autres membres de la CTE, qui sont des protéines, l'ubiquinone/ubiquinol est un lipide.",
+      "La NADH déshydrogénase est le complexe I de la CTE des mitochondries.",
+      "Le cytochrome c est une protéine qui transfère les électrons du complexe III au complexe IV."
+    ]
+  },
+  {
+    "id": "H020",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Parmi les voies métaboliques et processus suivants, lesquels produisent directement de l'ATP ?",
+    "options": [
+      "Glycolyse",
+      "Respiration cellulaire",
+      "Phosphorylation oxydative",
+      "Chaîne de transport d'électrons (CTE) des mitochondries",
+      "Voie des pentoses phosphates"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La glycolyse produit de l'ATP par phosphorylation au niveau du substrat.",
+      "La respiration cellulaire comprend la glycolyse, le cycle de Krebs et la phosphorylation oxydative. La respiration cellulaire comprend donc l'ensemble des voies métaboliques permettant de produire de l'ATP.",
+      "La phosphorylation oxydative couple le transport de protons à travers une membrane à la production d'ATP.",
+      "La CTE ne produit pas d'ATP : elle pompe des protons à travers une membrane, qui permettront ensuite à l'ATP synthase de produire de l'ATP lors de la phosphorylation oxydative.",
+      "La voie des pentoses phosphates ne produit pas d'ATP."
+    ]
+  },
+  {
+    "id": "H021",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Combien de molécules de NADH et de FADH2 sont produites du début de la glycolyse à la fin du cycle de Krebs, par molécule de glucose ?",
+    "options": [
+      "12",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "correct": [0],
+    "hint": "Des molécules de NADH et/ou FADH2 sont produites lors de la glycolyse, de l'oxydation du pyruvate et du cycle de Krebs. La glycolyse produit 2 molécules de pyruvate par molécule de glucose.",
+    "explanation": "La glycolyse produit 2 NADH. L'oxydation du pyruvate en acétyl-CoA produit 1 NADH par pyruvate et la glycolyse produit 2 pyruvates par glucose, donc cette étape produit 2 NADH par glucose. Le cycle de Krebs produit 3 NADH et 1 FADH2 par acétyl-CoA, donc 6 NADH et 2 FADH2 par glucose (qui produit 2 molécules d'acétyl-CoA). En tout, la glycolyse, l'oxydation du pyruvate et le cycle de Krebs produisent donc 10 NADH et 2 FADH2 par glucose, soit un total de 12 molécules de NADH et FADH2."
+  },
+  {
+    "id": "H022",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Combien de protons sont pompés de la matrice mitochondriale vers l'espace intermembranaire par la chaîne de transport d'électrons (CTE) pour chaque molécule de FADH2 qui lui transfère ses électrons ?",
+    "options": [
+      "6",
+      "2",
+      "4",
+      "8",
+      "10"
+    ],
+    "correct": [0],
+    "hint": "Le FADH2 transfère ses deux électrons au complexe II de la CTE.",
+    "explanation": "Le FADH2 transfère ses deux électrons au complexe II de la CTE, qui ne pompe aucun proton dans l'espace intermembranaire. Les deux électrons sont ensuite transférés par l'intermédiaire de la coenzyme Q au complexe III de la CTE, qui pompe 4 protons dans l'espace intermembranaire. Les deux électrons sont finalement transférés par l'intermédiaire du cytochrome c au complexe IV de la CTE, qui pompe 2 protons dans l'espace intermembranaire. Pour chaque FADH2 qui transfère ses deux électrons à la CTE, celle-ci pompe un total de 6 protons dans l'espace intermembranaire."
+  },
+  {
+    "id": "H023",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Les mitochondries du tissu adipeux brun contiennent des ___, qui permettent aux protons de retourner dans la matrice mitochondriale sans passer à travers l'ATP synthase et donc sans participer à la synthèse d'ATP. Ces ___ sont notamment importants pour le maintien de la température corporelle.",
+    "options": [
+      "Agents découplants",
+      "Gouttelettes lipidiques",
+      "Cristae",
+      "Adipocytes",
+      "Transporteurs d'électrons"
+    ],
+    "correct": [0],
+    "explanation": [
+      "Lors du passage des protons à travers des agents découplants (angl. : uncoupling agents ou uncoupling proteins), l'énergie normalement utilisée pour synthétiser de l'ATP est dissipée sous forme de chaleur.",
+      "Les gouttelettes lipidiques (angl. : lipid droplets) sont des réserves intracellulaires de lipides.",
+      "Les cristae (ou crêtes) sont des replis de la membrane interne des mitochondries qui permettent d'augmenter sa surface.",
+      "Les adipocytes sont les cellules du tissu adipeux, qui servent à stocker les lipides.",
+      "Les transporteurs d'électrons, p. ex. NAD+/NADH ou FAD/FADH2, sont des molécules qui servent à transporter des électrons à l'intérieur des cellules."
+    ]
+  },
+  {
+    "id": "H024",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quelles molécules peuvent être utilisées par le corps humain comme sources d'énergie ?",
+    "options": [
+      "Glucose",
+      "Triglycérides",
+      "Polypeptides",
+      "Glycérol",
+      "Ammoniac"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": [
+      "Le glucose est le point d'entrée de la glycolyse et l'une des principales sources d'énergie du corps humain.",
+      "Les triglycérides sont des lipides qui peuvent être dégradés en intermédiaires de la respiration cellulaire et ainsi participer à la production d'ATP.",
+      "Les polypeptides sont des polymères d'acides aminés qui peuvent être dégradés en acides aminés. Une fois désaminés, les acides aminés peuvent servir de source d'énergie pour le corps humain, en étant convertis en intermédiaires de la respiration cellulaire.",
+      "Le glycérol peut être converti en intermédiaire de la glycolyse et utilisé pour produire de l'ATP.",
+      "L'ammoniac NH₃ ne peut pas être utilisé comme source d'énergie. Il s'agit en fait d'une molécule toxique qui est excrétée par le système immunitaire."
+    ]
+  },
+  {
+    "id": "H025",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La phosphofructokinase est une enzyme impliquée dans la glycolyse et qui joue un rôle clé dans la régulation de la respiration cellulaire. Parmi les molécules suivantes, laquelle n'est pas capable de réguler directement l'activité de la phosphofructokinase ?",
+    "options": [
+      "NADH",
+      "AMP",
+      "ADP",
+      "ATP",
+      "Citrate"
+    ],
+    "correct": [0],
+    "explanation": "L'ATP et le citrate agissent comme inhibiteurs allostériques : une grande concentration d'ATP ou de citrate indique que la respiration cellulaire est active et que la cellule dispose de suffisamment d'ATP. Au contraire, l'ADP et l'AMP agissent comme activateurs allostériques : une grande concentration d'ADP ou d'AMP indique un manque d'ATP."
+  },
+  {
+    "id": "H026",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Alors que la fermentation lactique n'est constituée que d'une étape, la fermentation alcoolique en comprend deux. Quelle molécule est l'intermédiaire de la fermentation alcoolique ?",
+    "options": [
+      "Acétaldéhyde",
+      "Acétate",
+      "Acétone",
+      "Méthanol",
+      "Acide acétique"
+    ],
+    "correct": [0],
+    "explanation": "L'acétaldéhyde CH₃COH est l'intermédiaire de la fermentation alcoolique. Lors de celle-ci, le pyruvate est converti en acétaldéhyde, qui est ensuite converti en éthanol."
+  },
+  {
+    "id": "H027",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Dans les années 1920, un célèbre scientifique allemand a découvert que les cellules cancéreuses possèdent un métabolisme déréglé, caractérisé par une consommation anormalement élevée de glucose et la production de lactate par fermentation lactique. Ce phénomène peut notamment être utilisé pour la détection du cancer. Sous quel nom est connu ce phénomène ?",
+    "options": [
+      "Effet Warburg",
+      "Effet de Wolff-Chaikoff",
+      "Effet Wahlund",
+      "Effet Windkessel",
+      "Effet Wallace"
+    ],
+    "correct": [0],
+    "explanation": [
+      "Ce phénomène a été nommé en l'honneur d'Otto H. Warburg.",
+      "Pas à connaître : L'effet de Wolff-Chaikoff, découvert en 1948 par J Woldd et I. L. Chaikoff, décrit la réduction de la synthèse des hormones thyroïdiennes à la suite d'une charge considérable d'iode.",
+      "Pas à connaître : L'effet Wahlund, décrit en 1928 par S. Wahlund, désigne une diminution d'hétérozygotes par rapport à la proportion prédite par l'équilibre de Hardy-Weinberg.",
+      "Pas à connaître : L'effet Windkessel désigne le phénomène selon lequel les artères amortissent le flux sanguin en agissant comme réservoirs d'air.",
+      "Pas à connaître : L'effet Wallace, décrit en 1889 par A. R. Wallace, désigne l'hypothèse selon laquelle la sélection naturelle favorise l'évolution de mécanismes assurant l'isolation reproductive de populations jusqu'à ce qu'elles deviennent des espèces distinctes (spéciation)."
+    ]
+  },
+  {
+    "id": "H028",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "La voie des pentoses phosphates (angl. : pentose phosphate pathway, PPP) est une voie métabolique importante pour les cellules, divisée en phases oxydative et non oxydative. Elle permet notamment de produire du ribose-5-phosphate (précurseur des nucléotides) et du NADPH (réducteur intracellulaire). Le NADPH est important pour plusieurs voies de synthèse et permet de protéger la cellule des espèces réactives de l'oxygène (angl. : reactive oxygen species, ROS). Quelle phase est responsable de la synthèse du NADPH ?",
+    "options": [
+      "Oxydative",
+      "Non oxydative"
+    ],
+    "correct": [0],
+    "explanation": "La phase oxydative est responsable de la production de NADPH."
+  },
+  {
+    "id": "H029",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Les espèces réactives de l'oxygène (angl. : reactive oxygen species, ROS) sont des molécules particulièrement réactives, p. ex. des radicaux, qui peuvent gravement endommager les cellules. Parmi les molécules suivantes, laquelle joue un rôle primordial pour empêcher les dégâts dus aux ROS, notamment en neutralisant le peroxyde d'hydrogène H₂O₂ et les radicaux hydroxyles HO· ?",
+    "options": [
+      "Glutathion",
+      "ATP synthase",
+      "Glucose",
+      "Radical alcoxyle",
+      "6-Phosphoglucono-δ-lactone"
+    ],
+    "correct": [0],
+    "explanation": "Le glutathion est un tripeptide constitué d'acide glutamique, de cystéine et de glycine. Sa forme réduite protège les cellules des espèces ROS en les neutralisant."
+  },
+  {
+    "id": "H030",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes concernant le glycogène, laquelle est fausse ?",
+    "options": [
+      "Le glycogène est synthétisé à partir de molécules d'α-L-glucose.",
+      "Le glycogène constitue une forme efficace de stockage du glucose.",
+      "Le glycogène contient des liaisons glycosidiques α(1→4) et α(1→6).",
+      "La synthèse du glycogène est une voie anabolique.",
+      "La synthèse du glycogène nécessite une enzyme spécifique pour les ramifications."
+    ],
+    "correct": [0],
+    "explanation": "Le glycogène est synthétisé à partir de molécule d'α-D-glucose."
+  },
+  {
+    "id": "H031",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "La dégradation du glycogène produit du glucose-6-phosphate, qui peut être converti en glucose par le foie et relâché dans la circulation sanguine. Quels éléments sont nécessaires à la conversion du glucose-6-phosphate en glucose et à sa mise en circulation par le foie ?",
+    "options": [
+      "Glucose-6-phosphatase",
+      "Glucose-6-phosphate translocase (G6PT)",
+      "Transporteur de glucose 2 (GLUT2)",
+      "Phosphoglucomutase",
+      "Glycogénine"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": [
+      "La glucose-6-phosphatase est l'enzyme qui convertit le glucose-6-phosphate en glucose.",
+      "La glucose-6-phosphate translocase est composée de trois sous-unités. La sous-unité T1 importe le glucose-6-phosphate du cytosol dans le lumen du réticulum endoplasmique (RE) ; la sous-unité T2 exporte le glucose du lumen du RE vers le cytosol ; la sous-unité T3 exporte le phosphate du lumen du RE vers le cytosol.",
+      "Le transporteur de glucose 2 (GLUT2) exporte le glucose du cytosol des hépatocytes pour le mettre en circulation dans le système sanguin.",
+      "La phosphoglucomutase convertit le glucose-1-phosphate en glucose-6-phosphate.",
+      "La glycogénine est l'enzyme qui joue le rôle d'amorce dans la synthèse du glycogène."
+    ]
+  },
+  {
+    "id": "H032",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "La gluconéogenèse désigne la synthèse endogène de glucose. Chez l'humain, quels sont les deux organes principalement responsables de la gluconéogenèse ?",
+    "options": [
+      "Foie",
+      "Reins",
+      "Rate",
+      "Cerveau",
+      "Muscles"
+    ],
+    "correct": [0, 1],
+    "explanation": "Les deux principaux organes gluconéogènes sont le foie et les reins."
+  },
+  {
+    "id": "H033",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Quelle affirmation concernant la gluconéogenèse est fausse ?",
+    "options": [
+      "Chez l'humain, les trois principaux substrats de la gluconéogenèse sont le lactate, les triglycérides et les 20 acides aminés.",
+      "La gluconéogenèse nécessite des enzymes particulières pour contourner les étapes irréversibles de la glycolyse.",
+      "La gluconéogenèse est nécessaire lors d'un jeûne prolongé, car les réserves de glycogène s'épuisent rapidement.",
+      "La gluconéogenèse nécessite plus d'énergie que la glycolyse n'en produit.",
+      "Le lactate produit par les muscles pendant un effort intense peut être reconverti en glucose par le foie."
+    ],
+    "correct": [0],
+    "explanation": [
+      "Le lactate et les triglycérides font en effet partie des principaux substrats de la gluconéogenèse. En revanche, seuls les acides aminés glucoformateurs (angl. : glucogenic) peuvent également être utilisés comme substrats de la gluconéogenèse, tandis que les acides aminés cétoformateurs (angl. : ketogenic) (leucine, lysine) ne peuvent pas être utilisés pour cette voie métabolique.",
+      "Trois étapes de la glycolyse sont (pratiquement) irréversibles et doivent donc être contournées par la gluconéogenèse, qui utilise pour ce faire des enzymes spécifiques.",
+      "Les réserves de glycogène permettent p. ex. de survivre pendant la nuit ou lors de jeûnes courts, mais ne suffisent pas lors de jeûnes prolongés.",
+      "Les besoins en ATP (et GTP) de la gluconéogenèse sont plus importants que la production d'ATP de la glycolyse. De manière générale, les besoins énergétiques des voies anaboliques sont plus importants que la production énergétique des voies cataboliques correspondantes (vous en reparlerez l'année prochaine en Biological Chemistry II).",
+      "Il s'agit du cycle de Cori, qui désigne la coopération métabolique entre les muscles squelettiques et le foie. Le lactate produit par les muscles est transporté jusqu'au foie, qui le reconvertit en glucose par gluconéogenèse. Le glucose ainsi produit est ensuite transmis par le sang aux muscles, qui le stockent sous forme de glycogène."
+    ]
+  },
+  {
+    "id": "H034",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 2,
+    "question": "Toutes les affirmations suivantes à propos de la régulation hormonale du métabolisme sont correctes, sauf une : laquelle ?",
+    "options": [
+      "L'insuline, le glucagon, l'adrénaline (ou épinéphrine) et la triiodothyronine (T3) sont des protéines.",
+      "La forme mature de l'insuline contient des ponts disulfures.",
+      "L'insuline et le glucagon sont produits dans le même organe, mais par des cellules différentes.",
+      "Selon leurs propriétés physico-chimiques, les hormones peuvent se lier à des récepteurs transmembranaires ou nucléaires.",
+      "L'insuline et le glucagon ont des effets antagonistes."
+    ],
+    "correct": [0],
+    "explanation": [
+      "L'insuline est une protéine, tandis que le glucagon est un polypeptide (\"petite\" protéine). En revanche, l'adrénaline et la triiodothyronine (T3) ne sont pas des protéines : l'adrénaline est une catécholamine et la T3 est une hormone thyroïdienne.",
+      "La forme mature de l'insuline contient deux chaînes polypeptidiques (A et B), reliées entre elles par deux ponts disulfures. Il existe également un pont disfulfure interne à la chaîne A.",
+      "L'insuline et le glucagon sont tous deux produits dans les îlots de Langerhans du pancréas, mais l'insuline est produite par les cellules β alors que le glucagon est produit par les cellules α.",
+      "Les hormones hydrophiles se lient généralement à des récepteurs transmembranaires, car elles ne peuvent pas traverser la membrane plasmique. Les hormones hydrophobes peuvent en revanche traverser la membrane plasmique et se lier à des récepteurs intracellulaires appelés \"récepteurs nucléaires\".",
+      "Les effets métaboliques de l'insuline et du glucagon sont opposés. L'insuline est relâchée lorsque la concentration sanguine de glucose est élevée et permet de diminuer la glycémie, tandis que le glucagon est relâché lorsque la concentration sanguine de glucose est faible et permet d'augmenter la glycémie."
+    ]
+  },
+  {
+    "id": "H035",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les effets métaboliques de l'insuline ?",
+    "options": [
+      "Stimuler la synthèse d'acides gras dans le foie",
+      "Stimuler l'absorption de glucose par le foie",
+      "Stimuler la glycolyse dans les muscles",
+      "Stimuler la dégradation du glycogène dans le foie",
+      "Stimuler la dégradation du glycogène dans les muscles"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "L'insuline est relâchée lorsque la concentration sanguine de glucose est élevée et indique aux organes que du glucose est disponible, ce qui a notamment pour effet d'activer des voies anaboliques."
+  },
+  {
+    "id": "H036",
+    "section": "metabolism",
+    "type": "multiple-choice",
+    "level": 1,
+    "question": "Quels sont les effets métaboliques du glucagon ?",
+    "options": [
+      "Inhibition de la synthèse de glycogène dans le foie",
+      "Inhibition de la glycolyse hépatique",
+      "Mobilisation d'acides gras dans le tissu adipeux",
+      "Inhibition de la gluconéogenèse hépatique",
+      "Inhibition de la glyocgénolyse hépatique"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Le glucagon est relâché lorsque la concentration de glucose dans le sang est faible et ses effets visent principalement à rétablir la glycémie."
+  },
+  {
+    "id": "H037",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Parmi les affirmations suivantes à propos de la régulation du métabolisme, laquelle est correcte ?",
+    "options": [
+      "La voie de transduction de l'insuline inclut des protéines et des lipides.",
+      "Toutes les enzymes impliquées dans des voies métaboliques sont actives dans leur état déphosphorylé et inactives dans leur état phosphorylé.",
+      "Toutes les enzymes impliquées dans des voies métaboliques sont actives dans leur état phosphorylé et inactives dans leur état déphosphorylé.",
+      "L'insuline agit en se liant à un récepteur couplé à une protéine G (GPCR).",
+      "La voie de transduction de l'adrénaline (ou épinéphrine) implique la molécule d'AMP cyclique (AMPc), contrairement à la voie de transduction du glucagon.",
+      "L'AMP cyclique (AMPc) est dégradé en ADP par une phosphodiestérase."
+    ],
+    "correct": [0],
+    "explanation": [
+      "La voie de transduction de l'insuline inclut des protéines, p. ex. la glycogène synthase kinase 3 (GSK3), et des lipides, p. ex. le phosphatidylinositol-3,4,5-trisphosphate (PIP3).",
+      "Certaines enzymes du métabolisme sont actives dans leur état déphosphorylé, p. ex. la glycogène synthase, alors que d'autres sont actives dans leur état phosphorylé, p. ex. la lipase hormonosensible (HSL).",
+      "Certaines enzymes du métabolisme sont actives dans leur état déphosphorylé, p. ex. la glycogène synthase, alors que d'autres sont actives dans leur état phosphorylé, p. ex. la lipase hormonosensible (HSL).",
+      "L'insuline se lie à un récepteur à activité tyrosine kinase (RTK).",
+      "Les voies de transduction du glucagon et de l'adrénaline (épinéphrine) impliquent toutes deux la molécule d'AMP cyclique (AMPc). Les deux hormones se lient à un récepteur couplé à une protéine G (GPCR) et mènent à l'activation de l'adénylate cyclase (AC).",
+      "L'AMPc est dégradé en AMP par une phosphodiestérase."
+    ]
+  },
+  {
+    "id": "H038",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant l'état postprandial est fausse ?",
+    "options": [
+      "L'utilisation d'acides gras par le cerveau est stimulée.",
+      "La voie des pentoses phosphates (PPP) est activée dans le foie.",
+      "La synthèse des protéines est activée dans le msucle squelettique.",
+      "La synthèse des lipoprotéines de très basse densité (angl. : very low density lipoproteins, VLDLs) est activée dans le foie.",
+      "L'absorption de glucose par le muscle squelettique est stimulée."
+    ],
+    "correct": [0],
+    "explanation": "Le glucose est le carburant exclusif du cerveau à l’état postprandial. Les acides gras ne peuvent pas servir de carburant aux neurones car ils ne traversent pas la barrière hémato-encéphalique (BHE), une barrière physico-métabolique qui isole le cerveau du reste de l'organisme."
+  },
+  {
+    "id": "H039",
+    "section": "metabolism",
+    "type": "single-choice",
+    "level": 1,
+    "question": "Quelle affirmation concernant l'état de jeûne est fausse ?",
+    "options": [
+      "Lorsqu'il n'y a plus suffisamment de glucose en circulation dans le sang, le muscle squelettique utilise exclusivement des acides gras comme source d'énergie.",
+      "L'état de jeûne est caractérisé par une baisse des substrats plasmatiques en comparaison de l'état postprandial.",
+      "En période de jeûne prolongé, le foie produit et sécrète des corps cétoniques.",
+      "Le tissu adipeux n'absorbe pas de glucose.",
+      "En cas d'hypoglycémie prolongée, le cerveau peut utiliser des corps cétoniques sécrétés par le foie comme source d'énergie."
+    ],
+    "correct": [0],
+    "explanation": [
+      "En période de jeûne, le muscle squelettique utilise principalement des acides gras et des corps cétoniques comme carburants.",
+      "Après un repas (état postprandial), le plasma contient de grandes quantités de carburant (glucose, protéines, lipides). Petit à petit, la concentration plasmatique de ces carburants diminue, jusqu'à atteindre un état d'hypoglycémie. La régulation du métabolisme, p. ex. grâce à la sécrétion de glucagon, permet de contrecarrer cet état en rétablissant une glycémie normale.",
+      "Lors d'un jeûne prolongé, les réserves de glycogène ne suffisent pas pour assurer les besoins en glucose de l'organisme. Le foie produit et sécrète alors des corps cétoniques, qui servent de source d'énergie à d'autres organes, en particulier au cerveau.",
+      "En période de jeûne, le tissu adipeux ne peut pas absorber de glucose car il ne possède pas de transporteurs de glucose GLUT4 à la membrane.",
+      "Le cerveau ne peut pas utiliser les lipides comme source d'énergie et est donc contraint d'utiliser du glucose. En cas de jeûne prolongé, le cerveau peut toutefois également utiliser des corps cétoniques produits et sécrétés par le foie comme source d'énergie."
+    ]
   }
 ]
