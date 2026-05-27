@@ -1077,7 +1077,7 @@
                     <h3>À propos de cette plateforme</h3>
                     <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
                         Cette plateforme de révision a été créée par l'équipe d'assistants du cours <strong style="color:var(--text-primary);">BIOENG-110 Biologie Générale</strong> (EPFL - SV BA2).
-                        Elle couvre l'essentiel du cours et propose des questions de différents niveaux de difficulté.
+                        Elle couvre l'essentiel du cours (sauf les cours de microbiologie et écologie) et propose des questions de différents niveaux de difficulté.
                         Ton score et ta progression sont sauvegardés automatiquement à chaque réponse.
                     </p>
                     <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.75rem;">
@@ -1203,7 +1203,7 @@
                         <li>Chaque session est identifiée par un ID unique. Sauvegarde-le pour retrouver ta progression depuis un autre appareil ou navigateur.</li>
                         <li>L'ID est affiché dans le menu principal. Utilise le bouton "⧉ Copier" pour le copier facilement.</li>
                         <li>Si tu reviens sur le même navigateur, ton ID est sauvegardé automatiquement : choisis "Continuer ma session" sur la page d'accueil.</li>
-                        <li>Si tu changes d'appareil ou de navigateur, utilise "Charger une session" et colle ton ID.</li>
+                        <li>Si tu changes d'appareil ou de navigateur, utilise "Charger une session" et colle ton ID (les questions marquées sont enregistrées localement et seront donc perdues).</li>
                     </ul>
                 </div>
             </div>
@@ -3306,7 +3306,7 @@
                     item.style.cssText = 'background: var(--bg-tertiary); padding: 0.75rem 1rem; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;';
                     item.innerHTML = `
                         <div>
-                            <strong>{sectionNames[section] || section}</strong><br>
+                            <strong>${sectionNames[section] || section}</strong><br>
                             <span style="font-size: 0.85rem; color: var(--text-secondary);">
                                 ${stats.answered}/${stats.total} répondues (${coverage}%)
                             </span>
